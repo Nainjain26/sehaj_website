@@ -87,11 +87,11 @@ const Footer = () => {
           <div className="py-5">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.5260583780764!2d75.89048597560362!3d22.745850679368704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd56993c50d5%3A0xbdcc27d0aa89f45b!2sPrinces%27%20Business%20Skypark!5e0!3m2!1sen!2sin!4v1731412679940!5m2!1sen!2sin"
-              width="350"
-              height="350 "
+              // width="350"
+              // height="350 "
               style={{ border: 0 }}
               allowFullScreen
-              loading="lazy"
+              loading="lazy" className="md:w-[350px] md:h-[350px] h-[250px] w-[250px]"
             />
             <h1 className="py-3 font-semibold text-xl md:text-2xl">Get In Touch</h1>
             <div className="flex">
