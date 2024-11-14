@@ -6,11 +6,11 @@ const page = () => {
       <h1 className="text-blue-500 text-center text-3xl md:text-4xl font-semibold underline">
         Compaint-data
       </h1>
-      <p className="pt-10 font-semibold text-xl md:text-3xl  max-w-7xl mx-auto">
+      <p className="pt-10 font-semibold text-lg md:text-3xl  max-w-7xl mx-auto pl-5">
       ⦁ Data for the month ending – August 2024
       </p>
       <div className="overflow-x-auto">
-      <table className="table-auto text-center  mt-10 max-w-7xl mx-auto text-lg md:text-2xl bg-blue-50">
+      <table className="table-auto text-center  mt-10 max-w-7xl mx-auto  md:text-2xl bg-blue-50">
         <thead className="">
           <tr>
             <th>S.NO.</th>
@@ -64,11 +64,11 @@ const page = () => {
       </table>
       </div>
 
-      <p className="pt-10 font-semibold text-xl md:text-3xl  max-w-7xl mx-auto">
+      <p className="pt-10 font-semibold text-lg md:text-3xl pl-5 max-w-7xl mx-auto">
       ⦁ Trend of monthly disposal of complaints
       </p>
       <div className="overflow-x-auto">
-      <table className="table-auto text-center  mt-10 max-w-7xl mx-auto text-lg md:text-2xl bg-blue-50">
+      <table className="table-auto text-center  mt-10 max-w-7xl mx-auto  md:text-2xl bg-blue-50">
         <thead className="">
           <tr>
             <th>S.NO.</th>
@@ -164,13 +164,13 @@ const page = () => {
       </table>
       </div>
      
-      <p className="pt-10 font-semibold text-xl md:text-3xl  max-w-7xl mx-auto">
+      <p className="pt-10 font-semibold text-lg md:text-3xl pl-5 max-w-7xl mx-auto">
       ⦁ Trend of annual disposal of complaints
       </p>
       <div className="overflow-x-auto">
-      <table className="table-auto text-center  mt-10 max-w-7xl mx-auto text-lg md:text-2xl bg-blue-50">
+      <table className="table-auto text-center  mt-10 max-w-7xl mx-auto text-sm md:text-2xl bg-blue-50">
       <thead className="">
-          <tr>
+          <tr >
             <th>S.NO.</th>
             <th>Month</th>
             <th>Carried forward from previous month</th>

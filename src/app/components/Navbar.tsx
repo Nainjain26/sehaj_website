@@ -135,11 +135,7 @@ export default function Navbar() {
                       href={ch.link ?? "/"}
                       className=" flex cursor-pointer items-center font-semibold text-xl  py-1 pl-6 pr-8  text-black hover:text-blue-500  "
                     >
-                      {/* image */}
-                      {/* {ch.iconImage && (
-                        <Image src={ch.iconImage} alt="item-icon" />
-                      )} */}
-                      {/* item */}
+                      
                       <span className="whitespace-nowrap   pl-3 ">
                         {ch.label}
                       </span>
