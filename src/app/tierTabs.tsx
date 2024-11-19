@@ -39,6 +39,7 @@ const TierTabs: React.FC<TierTabsProps> = ({ items }) => {
         aria-label="Tier Tabs"
         items={items}
         selectedKey={selectedTier}
+        // onSelectionChange={setSelectedTier} 
         onSelectionChange={(key) => setSelectedTier(String(key))}
         className="mb-5"
       >
