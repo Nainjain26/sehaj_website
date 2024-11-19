@@ -146,7 +146,7 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        {/* navitems */}
+       
       </section>
 
       
@@ -174,7 +174,7 @@ function MobileNav({ closeSideMenu }: { closeSideMenu: () => void }) {
             <SingleNavItem
               key={i}
               label={d.label}
-              // iconImage={d.iconImage}
+              
               link={d.link}
             >
               {d.children}
