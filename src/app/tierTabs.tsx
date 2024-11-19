@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 
-// Define a type for the content structure
+
 type PricingOption = {
   period: string;
   price: string;

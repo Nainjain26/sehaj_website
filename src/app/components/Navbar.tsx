@@ -112,7 +112,7 @@ export default function Navbar() {
         {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />} 
         </section>
         <section>
-        <div className="hidden md:flex items-center gap-4 transition-all ">
+        <div className="hidden md:flex items-center gap-4 transition-all  ">
           {navItems.map((d, i) => (
             <Link
               key={i}
@@ -161,8 +161,8 @@ export default function Navbar() {
 
 function MobileNav({ closeSideMenu }: { closeSideMenu: () => void }) {
   return (
-    <div className="fixed left-0 top-0 flex h-full min-h-screen w-full justify-end bg-black/60 md:hidden">
-      <div className=" h-full w-[65%] bg-white px-4 py-4">
+    <div className="fixed left-0 top-0 flex h-full min-h-screen w-full justify-end bg-black/60 md:hidden z-[2000]">
+      <div className=" h-full w-[65%] bg-white px-4 py-4 ">
         <section className="flex justify-end">
           <AiOutlineClose
             onClick={closeSideMenu}
