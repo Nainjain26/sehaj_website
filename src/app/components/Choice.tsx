@@ -5,8 +5,8 @@ const Choice = () => {
     <div className="mt-20  md:grid grid-cols-2 ">
     <div className="md:grid grid-cols-2  m-10 gap-10">
       {/* Left Side Cards */}
-      <div className="p-10  shadow-blue-2xl rounded-2xl transition-all hover:scale-110 hover:bg-blue-50 mb-8">
-        <img src="/preview-9 1.png" alt="" width={150} height={150} className="bounce-animation" />
+      <div className="p-10  shadow-blue-2xl rounded-2xl transition-all hover:scale-110  hover:bg-blue-50 mb-8">
+        <img src="/Animation - 1731751207438.gif" alt="" width={150} height={150} className="" />
         <h1 className=" text-xl md:text-2xl font-semibold pb-2">Qualified Researcher</h1>
         <p className="text-gray-500">We fight the hardest conditions with hardest resources.</p>
       </div>
@@ -16,12 +16,12 @@ const Choice = () => {
         <p className="text-gray-500">Help your most hard working muscle keep working.</p>
       </div>
       <div className="p-10 shadow-blue-2xl rounded-2xl transition-all hover:scale-110 hover:bg-blue-50 mb-8">
-        <img src="/preview-1 7.png" alt="" width={150} height={150} className="bounce-animation" />
+        <img src="/Animation - 1731923954405.gif" alt="" width={150} height={150}  />
         <h1 className="text-xl md:text-2xl font-semibold pb-2">Easy Reports</h1>
         <p className="text-gray-500">Detailed and easy to understand Weekly & on-time reporting.</p>
       </div>
       <div className="p-10 shadow-blue-2xl rounded-2xl transition-all hover:scale-110 hover:bg-blue-50 mb-8">
-        <img src="/preview-6 1.png" alt="" width={150} height={150} className="bounce-animation" />
+        <img src="/Animation - 1731924047290.gif" alt="" width={150} height={150}  />
         <h1 className="text-xl md:text-2xl font-semibold pb-2">Safe & Secure</h1>
         <p className="text-gray-500">Your data will be taken care of in the best possible way.</p>
       </div>

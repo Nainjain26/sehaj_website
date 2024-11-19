@@ -29,13 +29,13 @@ const navItems: NavItem[] = [
   },
   
   {
-    label: "complaint-status",
-    link: "/complaint-status",
+    label: "Complaint-status",
+    link: "/Complaint-status",
     
   },
   {
-    label: "pricing",
-    link: "/pricing"
+    label: "Pricing",
+    link: "/Pricing"
   },
   {
     label: "Bank-details",
@@ -119,7 +119,7 @@ export default function Navbar() {
               href={d.link ?? "/"}
               className="relative group  px-2 py-3 transition-all "
             >
-              <p className="flex cursor-pointer items-center text-xl font-semibold gap-2 text-black hover:text-blue-500 ">
+              <p className="flex cursor-pointer items-center text-xl pt-5 font-semibold gap-2 text-black hover:text-blue-500 ">
                 <span>{d.label}</span>
                 {d.children && (
                   <IoIosArrowDown className=" rotate-180  transition-all group-hover:rotate-0" />

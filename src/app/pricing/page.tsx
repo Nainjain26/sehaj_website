@@ -1,52 +1,310 @@
 "use client";
 
-import React from 'react'
+import React, { useState } from "react";
+import { Tabs, Tab, CardBody, Card } from "@nextui-org/react";
+import TierTabs from "../tierTabs";
 
 
-const page = () => {
-  
-  return (
-    <div>
-      {/* <h1 className="text-blue-500 text-center text-3xl md:text-4xl font-semibold underline ">
-        Pricing
-      </h1>
-      <h1 className='mt-10 text-center text-3xl font-semibold'></h1>
-     
-      
-      <div className='grid grid-cols-4 text-center border max-w-[1240px] mx-auto shadow-2xl my-20'>
-        <div className='my-12'>
-          <h1 className='text-2xl font-semibold pb-5 mt-12'>Monthly</h1>
-          <h1 className='text-2xl font-semibold pb-5'>Quaterly</h1>
-          <h1 className='text-2xl font-semibold pb-5'>Half yearly </h1>
-          <h1 className='text-2xl font-semibold '>Yearly </h1>
-        </div>
-        <div className='' >
-          <h1 className='text-3xl pt-4  text-blue-800 font-semibold'>case</h1>
-          <h1 className='text-2xl text-gray-500  pb-5 mt-12'>9999+ GST</h1>
-          <h1 className='text-2xl text-gray-500 pb-5'>27000+ GST</h1>
-          <h1 className='text-2xl text-gray-500 pb-5'>51000+GST </h1>
-          <h1 className='text-2xl text-gray-500 '>99999+GST </h1>
-        </div>
-        <div className='' >
-          <h1 className='text-3xl pt-4  text-blue-800 font-semibold'>Future </h1>
-          <h1 className='text-2xl text-gray-500  pb-5 mt-12'>9999+ GST</h1>
-          <h1 className='text-2xl text-gray-500 pb-5'>27000+ GST</h1>
-          <h1 className='text-2xl text-gray-500 pb-5'>51000+GST </h1>
-          <h1 className='text-2xl text-gray-500 '>99999+GST </h1>
-        </div>
-        <div className='' >
-          <h1 className='text-3xl pt-4  text-blue-800 font-semibold'>Option</h1>
-          <h1 className='text-2xl text-gray-500  pb-5 mt-12'>9999+ GST</h1>
-          <h1 className='text-2xl text-gray-500 pb-5'>27000+ GST</h1>
-          <h1 className='text-2xl text-gray-500 pb-5'>51000+GST </h1>
-          <h1 className='text-2xl text-gray-500 '>99999+GST </h1>
-        </div>
+type PricingOption = {
+  period: string;
+  price: string;
+};
 
-      </div> */}
-      
-      </div> 
+type PricingContent = {
+  id: string;
+  label: string;
+  type: "pricing";
+  options: PricingOption[];
+};
+
+type DescriptionContent = {
+  id: string;
+  label: string;
+  type: "description";
+  description: string;
+};
+
+type TierContent = PricingContent | DescriptionContent;
+
+type Tier = {
+  id: string;
+  label: string;
+  content: TierContent[];
+};
+
+type TabItem = {
+  id: string;
+  label: string;
+};
+
+ type Colors={
+  color:string
+ };
+export default function App() {
+    const equityTiers: Tier[] = [
+        {
+          id: "Basic",
+          label: "Basic",
+          content: [
+            {
+              id: "Stock Case",
+              label: "Stock Case",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+              ],
+            },
+            {
+              id: " Stock Future",
+              label: "Stock Future",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+              ],
+            },
+            {
+              id: "Stock Option",
+              label: "Stock Option",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+              ],
+            },
+          ],
+        },
+        {
+          id: "Premium",
+          label: "Premium",
+          content: [
+            {
+              id: "Stock Case",
+              label: "Stock Case",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "15000" },
+                { period: "Quarterly", price: "42000" },
+                { period: "Half Yearly", price: "75000" },
+                { period: "Yearly", price: "1250000" },
+              ],
+            },
+            {
+              id: "Stock Future",
+              label: "Stock Future",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "15000" },
+                { period: "Quarterly", price: "42000" },
+                { period: "Half Yearly", price: "75000" },
+                { period: "Yearly", price: "1250000" },
+              ],
+            },
+            {
+              id: " Stock Option",
+              label: "Stock Option",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "15000" },
+                { period: "Quarterly", price: "42000" },
+                { period: "Half Yearly", price: "75000" },
+                { period: "Yearly", price: "1250000" },
+              ],
+            },
+          ],
+        },
+        {
+          id: "HNI",
+          label: "HNI",
+          content: [
+            {
+              id: "Stock Case",
+              label: "Stock Case",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+                
+              ],
+            },
+            {
+              id: "Stock Future",
+              label: "Stock Future",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+               
+              ],
+            },
+            {
+              id: "Stock Option",
+              label: "Stock Option",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+               
+              ],
+            },
+          ],
+        },
+      ];
+    
+
+  const commodityTiers: Tier[] = [
+    {
+        id: "Basic",
+        label: "Basic",
+        content: [
+          {
+            id: "Stock Case",
+            label: "Stock Case",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+            ],
+          },
+          {
+            id: "Index Future",
+            label: "Index Future",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+            ],
+          },
+          {
+            id: "Index Option",
+            label: "Index Option",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "Premium",
+        label: "Premium",
+        content: [
+          {
+            id: "Stock Case",
+            label: "Stock Case",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "15000" },
+                { period: "Quarterly", price: "42000" },
+                { period: "Half Yearly", price: "75000" },
+                { period: "Yearly", price: "1250000" },
+            ],
+          },
+          {
+            id: "Index Future",
+            label: "Index Future",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "15000" },
+                { period: "Quarterly", price: "42000" },
+                { period: "Half Yearly", price: "75000" },
+                { period: "Yearly", price: "1250000" },
+            ],
+          },
+          {
+            id: "Index Option",
+            label: "Index Option",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "15000" },
+                { period: "Quarterly", price: "42000" },
+                { period: "Half Yearly", price: "75000" },
+                { period: "Yearly", price: "1250000" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "HNI",
+        label: "HNI",
+        content: [
+          {
+            id: "Stock Case",
+            label: "Stock Case",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+            ],
+          },
+          {
+            id: "Index Future",
+            label: "Index Future",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+            ],
+          },
+          {
+            id: "Index Option",
+            label: "Index Option",
+            type: "pricing",
+            options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+            ],
+          },
+        ],
+      },
+  ];
+
+
+  const [selectedTab, setSelectedTab] = useState<string>("Equity");
+
+  const tabItems: TabItem[] = [
+    { id: "Equity", label: "Equity" },
+    { id: "Commodity", label: "Commodity" },
+  ];
    
-  )
-}
 
-export default page
+  return (
+    <div className="flex w-full flex-col bg-blue-50 ">
+      <Tabs
+      
+        aria-label="Main Tabs"
+        items={tabItems}
+        className="font-semibold md:text-3xl mt-8 max-w-[1240px] mx-auto "
+        selectedKey={selectedTab}
+        onSelectionChange={(key) => setSelectedTab(key.toString())}
+        // variant="bordered"
+        
+      >
+        {(item) => (
+          <Tab key={item.id} title={item.label}    className="md:mx-20 md:my-5 p-3 text-xl md:text-3xl ">
+            <Card>
+              <CardBody>
+                {item.id === "Equity" && <TierTabs items={equityTiers} />}
+                {item.id === "Commodity" && <TierTabs items={commodityTiers}/>}
+              </CardBody>
+            </Card>
+          </Tab>
+        )}
+      </Tabs>
+    </div>
+  );
+}
