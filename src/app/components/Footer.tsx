@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { IoMdMailUnread } from "react-icons/io";
-import { IoLocation } from "react-icons/io5";
+
 import { IoCall } from "react-icons/io5";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";

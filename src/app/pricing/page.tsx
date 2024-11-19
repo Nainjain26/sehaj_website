@@ -37,9 +37,7 @@ type TabItem = {
   label: string;
 };
 
- type Colors={
-  color:string
- };
+ 
 export default function App() {
     const equityTiers: Tier[] = [
         {
