@@ -104,7 +104,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="mx-auto flex  justify-evenly px-4 py-5 text-sm">
+    <div className="mx-auto flex  justify-evenly px-4 py-5 text-sm z-[2000]">
       {/* left side  */}
       <section ref={animationParent} className="flex items-center ">
         {/* logo */}
