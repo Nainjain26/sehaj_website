@@ -13,18 +13,18 @@ type TierContent = {
   id: string;
   label: string;
   type: "pricing" | "description";
-  options?: PricingOption[]; // Only for pricing
-  description?: string; // Only for description
+  options?: PricingOption[]; 
+  description?: string; 
 };
 
-// Define a type for the Tier item
+
 type Tier = {
   id: string;
   label: string;
   content: TierContent[];
 };
 
-// Props for TierTabs
+
 interface TierTabsProps {
   items: Tier[];
 }
@@ -39,7 +39,7 @@ const TierTabs: React.FC<TierTabsProps> = ({ items }) => {
         aria-label="Tier Tabs"
         items={items}
         selectedKey={selectedTier}
-        // onSelectionChange={setSelectedTier}
+        onSelectionChange={(key) => setSelectedTier(String(key))}
         className="mb-5"
       >
         {(tier) => (
