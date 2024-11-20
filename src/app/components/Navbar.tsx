@@ -35,7 +35,7 @@ const navItems: NavItem[] = [
   },
   {
     label: "Pricing",
-    link: "/Pricing"
+    link: "/pricing"
   },
   {
     label: "Bank-details",
