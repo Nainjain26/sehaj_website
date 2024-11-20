@@ -70,7 +70,7 @@ const Option = () => {
           </p>
         </div>
       </div>
-     <p className="text-center text-xl mb-4  md:text-3xl transition-all hover:scale-105 duration-150 md:mb-11 "> <Link href={"/Pricing"} className="mx-auto border p-3 rounded-2xl bg-blue-400 text-white  hover:bg-blue-500 "> Know More</Link></p>
+     <p className="text-center text-xl mb-4  md:text-3xl transition-all hover:scale-105 duration-150 md:mb-11 "> <Link href={"/pricing"} className="mx-auto border p-3 rounded-2xl bg-blue-400 text-white  hover:bg-blue-500 "> Know More</Link></p>
     </div>
   );
 };
