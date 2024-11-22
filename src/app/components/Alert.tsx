@@ -7,23 +7,22 @@ type AlertProps = {
 const Alert: React.FC<AlertProps> = ({ setAlert }) => {
   const handleAgree = () => {
     setAlert(false); 
-    
   };
 
   const handleDisagree = () => {
     setAlert(true); 
-    
   };
 
   return (
     <>
-      <div className="w-screen h-screen fixed z-[4000] overflow-y-auto  bg-zinc-400">
-        <div className="max-w-[1240px] mx-auto">
+      <div className="w-screen h-screen fixed z-[4000] bg-zinc-400 flex items-center justify-center">
+
+        <div className="max-w-[1240px] w-full bg-white rounded-lg shadow-lg p-6 overflow-y-auto max-h-[90vh]">
           <h1 className="text-red-700 text-center md:my-10 my-5 text-4xl font-semibold">
             ALERT
           </h1>
 
-          {/* Alert messages */}
+          
           <p className="max-w-7xl mx-auto md:text-2xl text-sm font-semibold mt-7">
             1. Please do not share your Demat Account details with our employees
             or any executive.
@@ -49,6 +48,7 @@ const Alert: React.FC<AlertProps> = ({ setAlert }) => {
             making any payments.
           </p>
 
+         
           <p className="max-w-7xl mx-auto md:text-2xl text-sm font-semibold mt-5">
             1. कृपया अपना डीमेट खाता हमारे कर्मचारियों या किसी कार्यकारी के साथ
             साझा न करें।
@@ -72,22 +72,22 @@ const Alert: React.FC<AlertProps> = ({ setAlert }) => {
           <p className="max-w-7xl mx-auto md:text-2xl text-sm font-semibold mt-3">
             5. कृपया हमारी वेबसाइट पर जाने के बाद भुगतान करें।
           </p>
-        </div>
 
-        {/* Buttons */}
-        <div className="flex justify-center gap-4 max-w-7xl mx-auto mt-5">
-          <button
-            className="p-3 border text-white bg-blue-700 md:text-3xl hover:bg-blue-600 font-semibold rounded-2xl"
-            onClick={handleAgree}
-          >
-            Agree
-          </button>
-          <button
-            className="p-3 border text-white bg-red-700 md:text-3xl hover:bg-red-600 font-semibold rounded-2xl"
-            onClick={handleDisagree}
-          >
-            Disagree
-          </button>
+          {/* Buttons */}
+          <div className="flex justify-center gap-4 max-w-7xl mx-auto mt-5">
+            <button
+              className="p-3 border text-white bg-blue-700 md:text-3xl hover:bg-blue-600 font-semibold rounded-2xl"
+              onClick={handleAgree}
+            >
+              Agree
+            </button>
+            <button
+              className="p-3 border text-white bg-red-700 md:text-3xl hover:bg-red-600 font-semibold rounded-2xl"
+              onClick={handleDisagree}
+            >
+              Disagree
+            </button>
+          </div>
         </div>
       </div>
     </>
