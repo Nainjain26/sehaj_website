@@ -73,7 +73,11 @@ const Option = () => {
           </p>
         </div>
       </div>
+<<<<<<< HEAD
      <p className="text-center text-xl pb-10 md:text-3xl transition-all hover:scale-105 duration-150 md:mb-11 "> <Link href={"/pricing"} className="mx-auto border p-3 rounded-2xl bg-blue-500 text-white  hover:bg-blue-600 "> Know More  </Link></p>
+=======
+     <p className="text-center text-xl mb-4  md:text-3xl transition-all hover:scale-105 duration-150 md:mb-11 "> <Link href={"/pricing"} className="mx-auto border p-3 rounded-2xl bg-blue-400 text-white  hover:bg-blue-500 "> Know More</Link></p>
+>>>>>>> 2665cb1b5e86a6fd81b04319f4f06408861f2632
     </div>
   );
 };
