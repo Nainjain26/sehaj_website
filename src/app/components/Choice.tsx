@@ -2,38 +2,43 @@ import React from "react";
 
 const Choice = () => {
   return (
-    <div className="mt-20  md:grid grid-cols-2 ">
-    <div className="md:grid grid-cols-2  m-10 gap-10">
-      {/* Left Side Cards */}
-      <div className="p-10  shadow-blue-2xl rounded-2xl transition-all hover:scale-110  hover:bg-blue-50 mb-8">
-        <img src="/Animation - 1731751207438.gif" alt="" width={150} height={150} className="" />
-        <h1 className=" text-xl md:text-2xl font-semibold pb-2">Qualified Researcher</h1>
-        <p className="text-gray-500">We fight the hardest conditions with hardest resources.</p>
-      </div>
-      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all hover:scale-110 hover:bg-blue-50 mb-8">
-        <img src="/preview-32-p-500 1.png" alt="" width={150} height={150} className="bounce-animation" />
-        <h1 className="text-xl md:text-2xl font-semibold pb-2">Fast Response</h1>
-        <p className="text-gray-500">Help your most hard working muscle keep working.</p>
-      </div>
-      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all hover:scale-110 hover:bg-blue-50 mb-8">
-        <img src="/Animation - 1731923954405.gif" alt="" width={150} height={150}  />
-        <h1 className="text-xl md:text-2xl font-semibold pb-2">Easy Reports</h1>
-        <p className="text-gray-500">Detailed and easy to understand Weekly & on-time reporting.</p>
-      </div>
-      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all hover:scale-110 hover:bg-blue-50 mb-8">
-        <img src="/Animation - 1731924047290.gif" alt="" width={150} height={150}  />
-        <h1 className="text-xl md:text-2xl font-semibold pb-2">Safe & Secure</h1>
-        <p className="text-gray-500">Your data will be taken care of in the best possible way.</p>
-      </div>
+    <div className="md:h-screen mt-24  bg-blue-50 ">
+      <div className="  ">
+    <h1 className="text-3xl md:pt-24 md:text-5xl text-center font-bold mb-10 underline decoration-blue-500 decoration-4 underline-offset-6 leading-tight">
+  Why Choose Us..?
+  </h1>
+      <p className="md:text-xl max-w-7xl mx-auto text-center md:mt-10 text-gray-700">
+      At Sahaj Research Services, we deliver reliable, tailored solutions with expert precision, swift support, and clear insights. Our secure practices ensure your data’s safety, while our simplified reports provide actionable results you can trust.      </p>
     </div>
+   <div>
+     <div className="md:grid grid-cols-2 mt-14 max-w-7xl mx-auto ">
+      <div className="p-10  shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] hover:scale-105 bg hover:bg-white mb-8">
+        <img src="/Animation - 1731751207438.gif" alt="" width={130} height={130} className="" />
+        <h1 className=" text-xl md:text-2xl font-semibold pb-2">Qualified Researcher</h1>
+        <p className="text-gray-700">We fight the hardest conditions with hardest resources.</p>
+      </div>
+      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] hover:scale-110 bg hover:bg-white mb-8">
+        <img src="/preview-32-p-500 1.png" alt="" width={135} height={135} className="bounce-animation" />
+        <h1 className="text-xl md:text-2xl font-semibold pb-2 pt-2">Fast Response</h1>
+        <p className="text-gray-700">Help your most hard working muscle keep working.</p>
+      </div>
+      </div>
+      <div  className="md:grid grid-cols-2 max-w-7xl mx-auto  " >
+      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] bg hover:scale-110 hover:bg-white mb-8">
+        <img src="/Animation - 1731923954405.gif" alt="" width={110} height={110}  />
+        <h1 className="text-xl md:text-2xl font-semibold pb-2">Easy Reports</h1>
+        <p className="text-gray-700">Detailed and easy to understand Weekly & on-time reporting.</p>
+      </div>
+      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] bg hover:scale-110 hover:bg-white mb-8">
+        <img src="/Animation - 1731924047290.gif" alt="" width={150} height={150}  />
+        <h1 className="text-xl md:text-2xl font-semibold pt-3 pb-2">Safe & Secure</h1>
+        <p className="text-gray-700">Your data will be taken care of in the best possible way.</p>
+      </div>
+      </div>
+      </div>
     
     {/* Right Side Content */}
-    <div className=" flex flex-col order-1 md:order-2 items-center justify-center ml-10">
-      <h1 className="text-3xl md:text-5xl font-semibold mb-10">Why Choose Us..?</h1>
-      <p className="md:text-xl text-gray-500">
-        At Sahaj Research Services, we pride ourselves on delivering top-notch, reliable services tailored to meet your unique needs. With a team of qualified researchers, we ensure every project is backed by expertise and precision. Our fast response times mean you can count on us to be there when it matters most, providing swift support and updates. We simplify complex information with easy-to-understand reports, so you get clear insights without the hassle. And with our commitment to being safe and secure, your data is always protected, giving you peace of mind as we work together.
-      </p>
-    </div>
+    
   </div>
   
   );

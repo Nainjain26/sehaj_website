@@ -5,11 +5,12 @@ import Spline from "@splinetool/react-spline";
 
 const Hero = () => {
   return (
-    <div className=" md:grid grid-cols-2  items-center relative z-[1000]  ">
-      <div className="h-[800px] w-[500px] max-md:hidden     z-[-1000]">
+    <div className=" md:grid grid-cols-2     items-center relative z-[1000] ">
+      <div className="absolute inset-0 bg-[url('/mac.png')] bg-cover bg-center opacity-25 z-[-1]"></div>
+      <div className="h-[800px] animate_right max-md:hidden  z-[-1000]">
         <Spline
           scene="https://prod.spline.design/sHwURiWMH0BuNdal/scene.splinecode"
-          className=" absolute  "
+          className=" absolute right-0  "
         />
       </div>
       
@@ -26,7 +27,7 @@ const Hero = () => {
         <h1 className=" text-2xl md:text-4xl font-bold pt-5  md:ml-40  ">
           For Informed Investment Decisions
         </h1>
-        <p className="  pt-5  text-gray-600  md:ml-40">
+        <p className="  pt-5  text-gray-700 md:text-lg  font-semibold md:ml-40">
           At Sahaj Research Services, we empower investors like you with
           meticulously curated research services tailored for the dynamic world
           of stock market . With years of expertise, we provide comprehensive
@@ -39,19 +40,19 @@ const Hero = () => {
             <h1 className="text-blue-500 font-semibold text-sm md:text-xl ">
               Live support
             </h1>
-            <p className="py-1  text-gray-500">In-person or online</p>
+            <p className="py-1  text-gray-700">In-person or online</p>
           </div>
           <div className=" p-3 shadow-xl rounded-xl cursor-pointer">
             <h1 className="text-blue-500 font-semibold text-sm md:text-xl ">
               Latest Track sheet
             </h1>
-            <p className="py-1  text-gray-500">For transparent services</p>
+            <p className="py-1  text-gray-700">For transparent services</p>
           </div>
           <div className=" p-3 shadow-xl rounded-xl cursor-pointer">
             <h1 className="text-blue-500 font-semibold text-sm md:text-xl ">
               Weakly Updates
             </h1>
-            <p className="py-1  text-gray-500">Stay connected</p>
+            <p className="py-1  text-gray-700">Stay connected</p>
           </div>
         </div>
       </motion.div>

@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --background: #ffffff;
+ /* :root {
+  --background: rgb(228, 242, 247); 
   --foreground: #171717;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-} */
+} */ 
 
 body {
   color: var(--foreground);
@@ -52,8 +52,11 @@ tr{
  }
  .custom-hr {
   border: none;
-  border-top: 1px solid #878484; /* Green color */
-  /* margin: 20px 0; */
+  border-top: 1px solid #878484; 
+  
+}
+.bg{
+  background: rgb(207, 228, 246);
 }
 
 

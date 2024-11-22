@@ -35,7 +35,7 @@ const navItems: NavItem[] = [
   },
   {
     label: "Pricing",
-    link: "/Pricing"
+    link: "/pricing"
   },
   {
     label: "Bank-details",
@@ -104,11 +104,11 @@ export default function Navbar() {
   }
 
   return (
-    <div className="mx-auto flex  justify-evenly px-4 py-5 text-sm z-[2000]">
+    <div className=" flex  justify-between md:mx-36 px-4 py-5 text-sm z-[2000]">
       {/* left side  */}
       <section ref={animationParent} className="flex items-center ">
         {/* logo */}
-        <Image src="/Frame 2.svg" alt=" logo" height={150} width={150}/>
+       <Link href={"/"}> <Image src="/Frame 2.svg" alt=" logo" height={150} width={150}/></Link>
         {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />} 
         </section>
         <section>
