@@ -4,7 +4,7 @@ const Choice = () => {
   return (
     <div className="md:h-screen mt-24  bg-blue-50 ">
       <div className="  ">
-    <h1 className="text-3xl md:pt-24 md:text-5xl text-center font-bold mb-10 underline decoration-blue-500 decoration-4 underline-offset-6 leading-tight">
+    <h1 className="text-3xl md:pt-14 md:text-4xl text-center font-bold mb-10 underline decoration-blue-500 decoration-4 underline-offset-6 leading-tight">
   Why Choose Us..?
   </h1>
       <p className="md:text-xl max-w-7xl mx-auto text-center md:mt-10 text-gray-700">
@@ -12,24 +12,24 @@ const Choice = () => {
     </div>
    <div>
      <div className="md:grid grid-cols-2 mt-14 max-w-7xl mx-auto ">
-      <div className="p-10  shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] hover:scale-105 bg hover:bg-white mb-8">
+      <div className="p-10  shadow-blue-2xl rounded-2xl transition-all md:h-[280px] md:w-[430px] hover:scale-105 bg hover:bg-white mb-8">
         <img src="/Animation - 1731751207438.gif" alt="" width={130} height={130} className="" />
         <h1 className=" text-xl md:text-2xl font-semibold pb-2">Qualified Researcher</h1>
         <p className="text-gray-700">We fight the hardest conditions with hardest resources.</p>
       </div>
-      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] hover:scale-110 bg hover:bg-white mb-8">
+      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[280px] md:w-[430px] hover:scale-110 bg hover:bg-white mb-8">
         <img src="/preview-32-p-500 1.png" alt="" width={135} height={135} className="bounce-animation" />
         <h1 className="text-xl md:text-2xl font-semibold pb-2 pt-2">Fast Response</h1>
         <p className="text-gray-700">Help your most hard working muscle keep working.</p>
       </div>
       </div>
       <div  className="md:grid grid-cols-2 max-w-7xl mx-auto  " >
-      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] bg hover:scale-110 hover:bg-white mb-8">
+      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[280px] md:w-[430px] bg hover:scale-110 hover:bg-white mb-8">
         <img src="/Animation - 1731923954405.gif" alt="" width={110} height={110}  />
         <h1 className="text-xl md:text-2xl font-semibold pb-2">Easy Reports</h1>
         <p className="text-gray-700">Detailed and easy to understand Weekly & on-time reporting.</p>
       </div>
-      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[300px] md:w-[500px] bg hover:scale-110 hover:bg-white mb-8">
+      <div className="p-10 shadow-blue-2xl rounded-2xl transition-all md:h-[280px] md:w-[430px] bg hover:scale-110 hover:bg-white mb-8">
         <img src="/Animation - 1731924047290.gif" alt="" width={150} height={150}  />
         <h1 className="text-xl md:text-2xl font-semibold pt-3 pb-2">Safe & Secure</h1>
         <p className="text-gray-700">Your data will be taken care of in the best possible way.</p>

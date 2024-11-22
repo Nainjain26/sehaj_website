@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className=" md:grid grid-cols-2     items-center relative z-[1000] ">
       <div className="absolute inset-0 bg-[url('/mac.png')] bg-cover bg-center opacity-25 z-[-1]"></div>
-      <div className="h-[800px] animate_right max-md:hidden  z-[-1000]">
+      <div className="md:h-[800px] animate_right max-md:hidden  z-[-1000]">
         <Spline
           scene="https://prod.spline.design/sHwURiWMH0BuNdal/scene.splinecode"
           className=" absolute right-0  "

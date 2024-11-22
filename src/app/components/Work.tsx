@@ -6,7 +6,7 @@ import { MdOutlineFilter2, MdOutlineFilter3 } from "react-icons/md";
 const Work = () => {
   return (
     <div className=" md:h-screen ">
-      <h1 className="text-center font-semibold md:pt-36 text-3xl md:text-5xl  mb-5 underline decoration-blue-500 decoration-4 underline-offset-6 leading-tight">
+      <h1 className="text-center font-semibold md:pt-28 text-3xl md:text-4xl  mb-5 underline decoration-blue-500 decoration-4 underline-offset-6 leading-tight">
         How does it work...?
       </h1>
       <p className="text-center text-gray-700 mb-10  md:text-xl max-w-5xl mx-auto">
