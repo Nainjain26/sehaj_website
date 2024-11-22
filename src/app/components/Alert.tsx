@@ -17,7 +17,7 @@ const Alert: React.FC<AlertProps> = ({ setAlert }) => {
 
   return (
     <>
-      <div className="w-screen h-screen fixed z-[4000] bg-zinc-400">
+      <div className="w-screen h-screen fixed z-[4000] overflow-y-auto  bg-zinc-400">
         <div className="max-w-[1240px] mx-auto">
           <h1 className="text-red-700 text-center md:my-10 my-5 text-4xl font-semibold">
             ALERT
