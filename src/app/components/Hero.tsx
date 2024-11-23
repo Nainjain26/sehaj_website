@@ -21,7 +21,7 @@ const Hero = () => {
         className=""
       >
         <h1 className=" text-3xl md:text-6xl font-bold  text-blue-600 md:ml-40">
-          Harnessing Data
+        Stock Solutions
         </h1>
 
         <h1 className=" text-2xl md:text-4xl font-bold pt-5  md:ml-40  ">

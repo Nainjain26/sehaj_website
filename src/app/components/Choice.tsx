@@ -11,7 +11,7 @@ const Choice = () => {
       At Sahaj Research Services, we deliver reliable, tailored solutions with expert precision, swift support, and clear insights. Our secure practices ensure your data’s safety, while our simplified reports provide actionable results you can trust.      </p>
     </div>
    <div>
-     <div className="md:grid grid-cols-2 mt-14 max-w-7xl mx-auto ">
+     <div className="md:grid  grid-cols-2 mt-14 max-w-7xl mx-auto ">
       <div className="p-10  shadow-blue-2xl rounded-2xl transition-all md:h-[280px] md:w-[430px] hover:scale-105 bg hover:bg-white mb-8">
         <img src="/Animation - 1731751207438.gif" alt="" width={130} height={130} className="" />
         <h1 className=" text-xl md:text-2xl font-semibold pb-2">Qualified Researcher</h1>
