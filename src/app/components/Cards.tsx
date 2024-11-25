@@ -7,7 +7,7 @@ interface CardProps {
 
 const Cards: React.FC<CardProps> = (props) => {
   return (
-    <div className="md:w-[230px] w-[120px] rounded-xl bg-gray-100 items-center justify-center flex py-4 transition-all hover:shadow-xl hover:bg-white">
+    <div className="md:w-[230px] w-[150px] rounded-xl bg-gray-100 items-center justify-center flex py-4 transition-all hover:shadow-xl hover:bg-white">
       <img
         src={props.image}
         alt={props.name}

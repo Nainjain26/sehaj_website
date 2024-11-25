@@ -29,7 +29,7 @@ const Work = () => {
               {<MdOutlineFilter1 className="text-blue-500" />}
             </p>
             <div className="ml-3">
-              <p className="text-xl md:text-2xl pb-2  font-semibold ">
+              <p className="text-lg md:text-xl pb-2  font-semibold ">
                 Get matched with the right Analyst for you.
               </p>
               <p className="text-gray-700">
@@ -45,7 +45,7 @@ const Work = () => {
               {<MdOutlineFilter2 className="text-blue-500" />}
             </p>
             <div className="ml-3">
-              <p className="text-xl md:text-2xl pb-2  font-semibold">
+              <p className="text-lg md:text-xl pb-2  font-semibold">
                 Choose a date and time.
               </p>
               <p className="text-gray-700">
@@ -59,7 +59,7 @@ const Work = () => {
               {<MdOutlineFilter3 className="text-blue-500" />}
             </p>
             <div className="ml-3">
-              <p className="text-xl md:text-2xl pb-2  font-semibold">
+              <p className="text-lg md:text-xl pb-2  font-semibold">
                 Meet in the comfort of your own home.
               </p>
               <p className="text-gray-700">

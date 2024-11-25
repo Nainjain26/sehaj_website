@@ -23,11 +23,11 @@ const Hero = () => {
         transition={{ duration: 0.5 }}
         className=""
       >
-        <h1 className=" text-3xl md:text-6xl font-bold  text-blue-600 md:ml-40">
+        <h1 className=" text-3xl md:text-5xl font-bold  text-blue-600 md:ml-40">
         Stock Solutions
         </h1>
 
-        <h1 className=" text-2xl md:text-4xl font-bold pt-5  md:ml-40  ">
+        <h1 className=" text-2xl md:text-3xl font-bold pt-5  md:ml-40  ">
           For Informed Investment Decisions
         </h1>
         <p className="  pt-5  text-gray-700 md:text-lg  font-semibold md:ml-40">

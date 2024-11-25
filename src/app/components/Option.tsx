@@ -18,7 +18,7 @@ const Option = () => {
           <img
             src="/Promoting Generosity Through Charitable Giving Initiatives 3D Scene.png"
             alt=""
-            className="mx-auto h-[120px] md:h-[250px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
+            className="mx-auto h-[120px] md:h-[220px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
           />
           <h1 className="text-2xl md:text-4xl text-blue-500 font-semibold py-5">
             Cash/Equity
@@ -34,7 +34,7 @@ const Option = () => {
             alt=""
             // width={200}
             // height={200}
-            className="mx-auto h-[120px] md:h-[250px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
+            className="mx-auto h-[120px] md:h-[220px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
           />
           <h1 className="text-2xl md:text-4xl text-blue-500 font-semibold py-5">
             Index
@@ -51,7 +51,7 @@ const Option = () => {
             alt=""
             // width={200}
             // height={200}
-            className="mx-auto h-[120px] md:h-[250px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
+            className="mx-auto h-[120px] md:h-[220px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
           />
           <h1 className="text-2xl md:text-4xl text-blue-500 font-semibold py-5">
             Option
@@ -66,7 +66,7 @@ const Option = () => {
           <img
             src="/Utilizing Cryptocurrencies In Cloud Computing 3D Scene.png"
             alt=""
-            className="mx-auto h-[120px] md:h-[250px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
+            className="mx-auto h-[120px] md:h-[220px] transform transition-transform duration-500 hover:scale-110 hover:rotate-6"
           />
           <h1 className="text-2xl md:text-4xl text-blue-500 font-semibold py-5">
             Future

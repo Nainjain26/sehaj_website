@@ -30,7 +30,7 @@ const navItems: NavItem[] = [
   
   {
     label: "Complaint-status",
-    link: "/complaint-status",
+    link: "/Complaint-status",
     
   },
   {
@@ -50,47 +50,47 @@ const navItems: NavItem[] = [
   //   label: "Refund-policies",
   //   link: "/Refund-policies"
   // },
-  {
-    label: "More",
-    link: "/",
-    children: [
-      // {
-      //   label: "Disclaimer",
-      //   link: "/Disclaimer",
+  // {
+  //   label: "More",
+  //   link: "/",
+  //   children: [
+  //     {
+  //       label: "Disclaimer",
+  //       link: "/Disclaimer",
        
-      // },
-      {
-        label: "Disclosure",
-        link: "/Disclosure",
+  //     },
+  //     {
+  //       label: "Disclosure",
+  //       link: "/Disclosure",
        
-      },
-      {
-        label: "Refund-policies",
-        link: "/Refund-policies"
-      },
-      {
-        label: "Privacy-policy",
-        link: "/Privacy-policy",
+  //     },
+  //     {
+  //       label: "Refund-policies",
+  //       link: "/Refund-policies"
+  //     },
+  //     {
+  //       label: "Privacy-policy",
+  //       link: "/Privacy-policy",
         
-      },
-      {
-        label: "Terms-&-condition",
-        link: "/Terms-&-condition",
+  //     },
+  //     {
+  //       label: "Terms-&-condition",
+  //       link: "/Terms-&-condition",
         
-      },
+  //     },
       
-      {
-        label: "Invester-charter",
-        link: "/Invester-charter",
+  //     {
+  //       label: "Invester-charter",
+  //       link: "/Invester-charter",
        
-      },
-      {
-        label: "Grievance Redressal Process",
-        link: "/Grievance-Redressal-Process"
+  //     },
+  //     {
+  //       label: "Grievance Redressal Process",
+  //       link: "/Grievance-Redressal-Process"
        
-      }
-    ]
-  },
+  //     }
+  //   ]
+  // },
 ];
 
 export default function Navbar() {
