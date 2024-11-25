@@ -13,6 +13,9 @@ const Hero = () => {
           className=" absolute right-0  "
         />
       </div>
+      <div className="md:hidden">
+        <img src="/phone2.png" alt="" className=" object-cover"/>
+      </div>
       
       <motion.div
         initial={{ opacity: 0, y: -50 }}
