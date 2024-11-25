@@ -30,7 +30,7 @@ const navItems: NavItem[] = [
   
   {
     label: "Complaint-status",
-    link: "/Complaint-status",
+    link: "/complaint-status",
     
   },
   {
