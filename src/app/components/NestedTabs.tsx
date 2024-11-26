@@ -31,6 +31,7 @@ const NestedTabs: React.FC<NestedTabsProps> = ({ content }) => {
             <CardBody>
               {item.type === "pricing" ? (
                 <div className="flex">
+
                   {item.options?.map((option, index) => (
                     <div
                       key={index}

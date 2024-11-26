@@ -19,7 +19,7 @@ const Footer = () => {
               className="md:h-[110px] md:w-[70px] h-[30px] w-[30px] mr-2"
             />
 
-            <h1 className=" md:text-xl font-semibold md:pt-4  ">
+            <h1 className=" text-xl font-semibold pt-4  ">
               
               Sahaj Research Services
             </h1>

@@ -7,9 +7,9 @@ import { MdAddLocationAlt } from "react-icons/md";
 const page = () => {
   return (
     <div className="bg-blue-50">
-      <div className=" h-[250px] mt-5 flex flex-col justify-center">
+      <div className=" py-6 flex flex-col justify-center">
         <h1 className=" text-2xl md:text-5xl font-semibold text-center text-blue-700">Contact us</h1>
-        <p className="text-center max-w-[1240px] mx-auto mt-5  md:text-xl text-sm text-gray-600">Contact us for any questions, support, or feedback. Our team is dedicated to assisting you and addressing your needs promptly. We value your input and look forward to helping you with your inquiries.</p>
+        <p className="text-center max-w-[1240px] mx-auto mt-5  md:text-lg text-sm text-gray-800">Contact us for any questions, support, or feedback. Our team is dedicated to assisting you and addressing your needs promptly. We value your input and look forward to helping you with your inquiries.</p>
       </div>
       <div className="md:grid grid-cols-2  max-w-[1240px] gap-8 md:h-[400px] mx-auto mt-5 md:mt-10">
       <div>
@@ -21,15 +21,15 @@ const page = () => {
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
-          className="  md:h-[350px] h-[250px] w-full"
+          className="  md:h-[320px] h-[230px] w-full"
         />
       </div >
         <div className=" max-sm:mt-5 ">
           <div className="flex">
-            <p className="mr-2 text-xl md:text-4xl text-blue-600">
+            <p className="mr-2 text-lg md:text-4xl text-blue-600">
               {<IoLocation />}
             </p>
-            <h1 className="md:text-2xl text-gray-700">
+            <h1 className=" text-gray-700">
               <span className="text-black font-semibold  ">Address</span> - 6th
               Floor,Unit no. 611, Princess Business skypark, opposite Orbit
               Mall,A.B Road, Indore, Madhya Pradesh,452001
@@ -39,7 +39,7 @@ const page = () => {
             <p className="mr-2 text-xl md:text-4xl text-blue-700">
               {<IoMdMailUnread />}
             </p>
-            <h1 className="md:text-2xl">
+            <h1 className="">
               <span className="text-black font-semibold ">E-mail</span> -
               <a
                 href="mailto:84himanshuvyas@gmail.com"
@@ -49,11 +49,12 @@ const page = () => {
               </a>
             </h1>
           </div>
-          <div className="flex mt-2 ">
+          <hr className="mt-6" />
+          <div className="flex mt-2 md:pt-6 ">
             <p className="mr-2 text-xl md:text-4xl text-blue-700">
               {<MdAddLocationAlt />}
             </p>
-            <h1 className="md:text-2xl text-gray-700">
+            <h1 className=" text-gray-700 ">
               <span className="text-black font-semibold ">
                 Correspondence Address
               </span>{" "}
@@ -65,20 +66,20 @@ const page = () => {
             <p className="mr-2 text-xl md:text-4xl text-blue-700">
               {<IoCall />}
             </p>
-            <h1 className="md:text-2xl text-gray-700">
+            <h1 className=" text-gray-700">
               +91-9993-985722 , +91-8839-349383
             </h1>
           </div>
         </div>
       </div>
-      <hr className="max-w-[1240px] mx-auto my-5" />
+      <hr className="max-w-[1240px] mx-auto my-3" />
       
       <div className="max-w-[1240px] mx-auto mt-10">
-        <h1 className=" md:text-2xl font-semibold my-5">
+        <h1 className=" md:text-xl font-semibold my-5">
           {" "}
           SEBI Office Details : SEBI Bhavan BKC
         </h1>
-        <h1 className="md:text-xl  text-gray-700 mt-5">
+        <h1 className=" text-gray-700 mt-5">
           <span className="text-black font-semibold ">SEBI REGISTRATION</span> -
           INH000014854
         </h1>
@@ -86,7 +87,7 @@ const page = () => {
           <p className="mr-2 text-xl md:text-4xl text-blue-600">
             {<IoLocation />}
           </p>
-          <h1 className="md:text-2xl  text-gray-700 mt-5">
+          <h1 className="  text-gray-700 mt-5">
             <span className="text-black font-semibold ">Address</span> - Plot
             No.C4-A, &apos;G&apos; Block Bandra-Kurla
             Complex,Bandra(East),Mumbai - 400051 ,Maharashtra{" "}
@@ -94,7 +95,7 @@ const page = () => {
         </div>
         <div className="flex mt-5">
           <p className="mr-2 text-xl md:text-4xl text-blue-600">{<IoCall />}</p>
-          <h1 className="md:text-2xl  text-gray-700">
+          <h1 className="  text-gray-700">
             Tel:+91-22-26449000/40459000/ Fax: +91-22-26449019-22 /40459019-22
           </h1>
         </div>
@@ -102,7 +103,7 @@ const page = () => {
           <p className="mr-2 text-xl md:text-4xl text-blue-600">
             {<IoMdMailUnread />}
           </p>
-          <h1 className="md:text-2xl  text-gray-700">
+          <h1 className="  text-gray-700">
             <span className="text-black font-semibold">E-mail</span> -
             <a
               href="mailto:sebi@sebi.gov.in"
@@ -112,7 +113,7 @@ const page = () => {
             </a>
           </h1>
         </div>
-        <h1 className="pb-5 md:text-2xl text-gray-700 mt-5">
+        <h1 className="pb-5  text-gray-700 mt-5">
           <span className="text-black font-semibold">
             {" "}
             Toll Free investor Helpline:{" "}
