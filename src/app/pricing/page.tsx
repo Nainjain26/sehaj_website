@@ -163,8 +163,8 @@ export default function App() {
         label: "Basic",
         content: [
           {
-            id: "Stock Case",
-            label: "Stock Case",
+            id: "EQ Combo",
+            label: "EQ Combo",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "9999" },
@@ -281,23 +281,32 @@ export default function App() {
    
 
   return (
-    <div className="flex w-full flex-col bg-blue-50 ">
+    <div className="flex w-full flex-col bg-blue-50">
       <Tabs
-      
         aria-label="Main Tabs"
         items={tabItems}
-        className="font-semibold md:text-3xl mt-8 max-w-[1240px] mx-auto "
+        className="font-semibold md:text-3xl mt-8 max-w-[1240px] mx-auto"
         selectedKey={selectedTab}
         onSelectionChange={(key) => setSelectedTab(key.toString())}
-        // variant="bordered"
-        
       >
         {(item) => (
-          <Tab key={item.id} title={item.label}    className="md:mx-20 md:my-5 p-3 text-xl md:text-3xl ">
+          <Tab
+            key={item.id}
+            title={
+              <span
+                className={`${
+                  selectedTab === item.id ? "text-white font-bold border border-blue-600 p-2 rounded-xl bg-blue-400" : "text-black"
+                }`}
+              >
+                {item.label}
+              </span>
+            }
+            className="md:mx-20 md:my-5 text-xl md:text-3xl"
+          >
             <Card>
               <CardBody>
                 {item.id === "Equity" && <TierTabs items={equityTiers} />}
-                {item.id === "Commodity" && <TierTabs items={commodityTiers}/>}
+                {item.id === "Commodity" && <TierTabs items={commodityTiers} />}
               </CardBody>
             </Card>
           </Tab>
