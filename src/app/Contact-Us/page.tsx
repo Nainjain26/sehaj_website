@@ -3,6 +3,7 @@ import { IoLocation } from "react-icons/io5";
 import { IoMdMailUnread } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 import { MdAddLocationAlt } from "react-icons/md";
+import { FaFax } from "react-icons/fa";
 // import Spline from "@splinetool/react-spline";
 const page = () => {
   return (
@@ -84,23 +85,29 @@ const page = () => {
           INH000014854
         </h1>
         <div className="flex items-center">
-          <p className="mr-2 text-xl md:text-4xl text-blue-600">
+          <p className="mr-2 text-xl md:text-3xl text-blue-600">
             {<IoLocation />}
           </p>
           <h1 className="  text-gray-700 mt-5">
             <span className="text-black font-semibold ">Address</span> - Plot
             No.C4-A, &apos;G&apos; Block Bandra-Kurla
-            Complex,Bandra(East),Mumbai - 400051 ,Maharashtra{" "}
+            Complex,Bandra(East), <br />Mumbai - 400051 ,Maharashtra{" "}
           </h1>
         </div>
         <div className="flex mt-5">
-          <p className="mr-2 text-xl md:text-4xl text-blue-600">{<IoCall />}</p>
+          <p className="mr-2 text-xl md:text-3xl text-blue-600">{<IoCall />}</p>
           <h1 className="  text-gray-700">
-            Tel:+91-22-26449000/40459000/ Fax: +91-22-26449019-22 /40459019-22
+          <span className="text-black font-semibold ">Tel</span>:+91-22-26449000/40459000
           </h1>
         </div>
         <div className="flex mt-5">
-          <p className="mr-2 text-xl md:text-4xl text-blue-600">
+          <p className="mr-2 text-xl md:text-3xl text-blue-600">{<FaFax />}</p>
+          <h1 className="  text-gray-700">
+          <span className="text-black font-semibold ">Fax</span>: +91-22-26449019-22 /40459019-22
+          </h1>
+        </div>
+        <div className="flex mt-5">
+          <p className="mr-2 text-xl md:text-3xl text-blue-600">
             {<IoMdMailUnread />}
           </p>
           <h1 className="  text-gray-700">
