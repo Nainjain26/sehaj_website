@@ -5,6 +5,8 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Heading from './Heading';
 
+import WpButton from './WpButton';
+
 interface RandomProps {
   children: ReactNode;
 }
@@ -17,6 +19,7 @@ const Random: React.FC<RandomProps> = ({ children }) => {
       {alert && <Alert setAlert={setAlert} />}
       <Navbar />
       <Heading/>
+      <WpButton/>
       {children}
       <Footer />
     </>

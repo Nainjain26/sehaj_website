@@ -77,7 +77,7 @@ const Option = () => {
           </p>
         </div>
       </div>
-      <p className="text-center text-xl pb-10 md:text-2xl transition-all hover:scale-105 duration-150 md:mb-11 ">
+      <p className="text-center text-xl pb-10 md:text-2xl transition-all  md:mb-11 ">
         {" "}
         <Link
           href={"/pricing"}

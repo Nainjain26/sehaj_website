@@ -38,8 +38,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* {alert && <Alert setAlert={setAlert} />} */}
-      
-        <Random>{children}</Random>
+        
+        <Random> {children}</Random>
       </body>
     </html>
   );

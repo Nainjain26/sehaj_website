@@ -305,7 +305,7 @@ export default function App() {
           >
             <Card>
               <CardBody>
-                {item.id === "Equity" && <TierTabs items={equityTiers} />}
+                {item.id === "Equity" && <TierTabs items={equityTiers}  />}
                 {item.id === "Commodity" && <TierTabs items={commodityTiers} />}
               </CardBody>
             </Card>
