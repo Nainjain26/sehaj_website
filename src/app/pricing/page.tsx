@@ -45,8 +45,8 @@ export default function App() {
           label: "Basic",
           content: [
             {
-              id: "Stock Case",
-              label: "Stock Case",
+              id: "Stock Cash",
+              label: "Stock Cash",
               type: "pricing",
               options: [
                 { period: "Monthly", price: "9999" },
@@ -77,6 +77,28 @@ export default function App() {
                 { period: "Yearly", price: "99999" },
               ],
             },
+            {
+              id: "Index Future",
+              label: "Index Future",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+              ],
+            },
+            {
+              id: "Index Option",
+              label: "Index Option",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+              ],
+            },
           ],
         },
         {
@@ -84,8 +106,8 @@ export default function App() {
           label: "Premium",
           content: [
             {
-              id: "Stock Case",
-              label: "Stock Case",
+              id: "Stock Cash",
+              label: "Stock Cash",
               type: "pricing",
               options: [
                 { period: "Monthly", price: "15000" },
@@ -116,6 +138,28 @@ export default function App() {
                 { period: "Yearly", price: "1250000" },
               ],
             },
+            {
+              id: "Index Future",
+              label: "Index Future",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+              ],
+            },
+            {
+              id: "Index Option",
+              label: "Index Option",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "9999" },
+                { period: "Quarterly", price: "27000" },
+                { period: "Half Yearly", price: "510000" },
+                { period: "Yearly", price: "99999" },
+              ],
+            },
           ],
         },
         {
@@ -123,8 +167,8 @@ export default function App() {
           label: "HNI",
           content: [
             {
-              id: "Stock Case",
-              label: "Stock Case",
+              id: "Stock Cash",
+              label: "Stock Cash",
               type: "pricing",
               options: [
                 { period: "Monthly", price: "51000" },
@@ -152,6 +196,24 @@ export default function App() {
                
               ],
             },
+            {
+              id: "Index Future",
+              label: "Index Future",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+              ],
+            },
+            {
+              id: "Index Option",
+              label: "Index Option",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "51000" },
+                { period: "Quarterly", price: "125000" },
+              ],
+            },
           ],
         },
       ];
@@ -163,8 +225,8 @@ export default function App() {
         label: "Basic",
         content: [
           {
-            id: "EQ Combo",
-            label: "EQ Combo",
+            id: "Base Matels",
+            label: "Base Matels",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "9999" },
@@ -174,8 +236,8 @@ export default function App() {
             ],
           },
           {
-            id: "Index Future",
-            label: "Index Future",
+            id: "Bullions",
+            label: "Bullions",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "9999" },
@@ -185,8 +247,8 @@ export default function App() {
             ],
           },
           {
-            id: "Index Option",
-            label: "Index Option",
+            id: "Energy",
+            label: "Energy",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "9999" },
@@ -202,8 +264,8 @@ export default function App() {
         label: "Premium",
         content: [
           {
-            id: "Stock Case",
-            label: "Stock Case",
+            id: "Base Matels",
+            label: "Base Matels",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "15000" },
@@ -213,8 +275,8 @@ export default function App() {
             ],
           },
           {
-            id: "Index Future",
-            label: "Index Future",
+            id: "Bullions",
+            label: "Bullions",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "15000" },
@@ -224,8 +286,8 @@ export default function App() {
             ],
           },
           {
-            id: "Index Option",
-            label: "Index Option",
+            id: "Energy",
+            label: "Energy",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "15000" },
@@ -241,8 +303,8 @@ export default function App() {
         label: "HNI",
         content: [
           {
-            id: "Stock Case",
-            label: "Stock Case",
+            id: "Base Matels",
+            label: "Base Matels",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "51000" },
@@ -250,8 +312,8 @@ export default function App() {
             ],
           },
           {
-            id: "Index Future",
-            label: "Index Future",
+            id: "Bullions",
+            label: "Bullions",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "51000" },
@@ -259,8 +321,8 @@ export default function App() {
             ],
           },
           {
-            id: "Index Option",
-            label: "Index Option",
+            id: "Energy",
+            label: "Energy",
             type: "pricing",
             options: [
                 { period: "Monthly", price: "51000" },

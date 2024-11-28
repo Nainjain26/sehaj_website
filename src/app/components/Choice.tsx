@@ -2,7 +2,7 @@ import React from "react";
 
 const Choice = () => {
   return (
-    <div className="md:md:h-screen mt-24  bg-blue-50 ">
+    <div className=" mt-24  bg-blue-50 ">
       <div className=" max-w-7xl mx-auto items-center  ">
         <h1 className="text-3xl pt-5 md:text-4xl text-center font-bold mb-7 underline decoration-blue-500 decoration-4 underline-offset-6 leading-tight">
           Why Choose Us..?
