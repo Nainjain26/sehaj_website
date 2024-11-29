@@ -1,22 +1,27 @@
-import React from "react";
-
+// import React from "react";
+import React, { useState } from "react";
 type AlertProps = {
   setAlert: (value: boolean) => void;
 };
 
 const Alert: React.FC<AlertProps> = ({ setAlert }) => {
+  const [isDisagreed, setIsDisagreed] = useState(false);
   const handleAgree = () => {
     setAlert(false);
   };
 
   const handleDisagree = () => {
-    setAlert(true);
+    setIsDisagreed(true); // Change modal background to red
   };
 
   return (
     <>
       <div className="w-screen h-screen fixed z-[4000] bg-black   opa flex items-center justify-center">
-        <div className="max-w-[1240px] w-full bg-gray-200 rounded-lg shadow-lg p-6 overflow-y-auto max-h-[90vh]">
+      <div
+        className={`max-w-[1240px] w-full ${
+          isDisagreed ? "bg-red-400" : "bg-gray-200"
+        } rounded-lg shadow-lg p-6 overflow-y-auto max-h-[90vh]`}
+      >
           <h1 className="text-red-500 text-center md:my-10 my-5 text-4xl font-semibold">
             ALERT
           </h1>
@@ -64,8 +69,7 @@ const Alert: React.FC<AlertProps> = ({ setAlert }) => {
           <p className="max-w-7xl mx-auto   text-sm font-semibold mt-3">
             4. कृपया किसी भी राशि का भुगतान कंपनी के खाते में ही करें, जिसका
             विवरण हमारी कंपनी की वेबसाइट पर उपलब्ध है। यदि आप ऐसा नहीं करते हैं,
-            तो इस प्रक्रिया में आप सोयम जिमेदार होंगे
-
+            तो इस प्रक्रिया में आप स्वयं जिमेदार होंगे
           </p>
           <p className="max-w-7xl mx-auto   text-sm font-semibold mt-3">
             5. कृपया हमारी वेबसाइट पर जाने के बाद भुगतान करें।
