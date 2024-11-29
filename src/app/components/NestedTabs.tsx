@@ -24,7 +24,7 @@ type NestedTabsProps = {
 
 const NestedTabs: React.FC<NestedTabsProps> = ({ content }) => {
   return (
-    <Tabs aria-label="Options" className="mt-5">
+    <Tabs aria-label="Options" className="mt-3">
       {content.map((item) => (
         <Tab key={item.id} title={item.label} className="text-3xl font-semibold">
           <Card>
@@ -40,12 +40,7 @@ const NestedTabs: React.FC<NestedTabsProps> = ({ content }) => {
                       <h1 className="text-3xl text-green-700">{option.period}</h1>
                       <p className="text-2xl pt-3">{option.price} +GST</p>
                       <p className="mt-10">
-                        {/* <Link
-                          href="/Buy-now"
-                          className="border rounded-3xl bg-blue-400 text-white text-3xl p-2"
-                        >
-                          Buy Now
-                        </Link> */}
+                        
                       </p>
                     </div>
                   ))}

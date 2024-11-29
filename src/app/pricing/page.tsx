@@ -51,7 +51,7 @@ export default function App() {
               options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
               ],
             },
@@ -62,7 +62,7 @@ export default function App() {
               options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
               ],
             },
@@ -73,7 +73,7 @@ export default function App() {
               options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
               ],
             },
@@ -84,7 +84,7 @@ export default function App() {
               options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
               ],
             },
@@ -95,8 +95,8 @@ export default function App() {
               options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Half Yearly", price: "51000" },
+                { period: "Yearly", price: "9999" },
               ],
             },
           ],
@@ -113,7 +113,7 @@ export default function App() {
                 { period: "Monthly", price: "15000" },
                 { period: "Quarterly", price: "42000" },
                 { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "1250000" },
+                { period: "Yearly", price: "125000" },
               ],
             },
             {
@@ -124,7 +124,7 @@ export default function App() {
                 { period: "Monthly", price: "15000" },
                 { period: "Quarterly", price: "42000" },
                 { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "1250000" },
+                { period: "Yearly", price: "125000" },
               ],
             },
             {
@@ -135,7 +135,7 @@ export default function App() {
                 { period: "Monthly", price: "15000" },
                 { period: "Quarterly", price: "42000" },
                 { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "1250000" },
+                { period: "Yearly", price: "125000" },
               ],
             },
             {
@@ -145,7 +145,7 @@ export default function App() {
               options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
               ],
             },
@@ -156,7 +156,7 @@ export default function App() {
               options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
               ],
             },
@@ -231,7 +231,7 @@ export default function App() {
             options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
             ],
           },
@@ -242,7 +242,7 @@ export default function App() {
             options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
             ],
           },
@@ -253,7 +253,7 @@ export default function App() {
             options: [
                 { period: "Monthly", price: "9999" },
                 { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "510000" },
+                { period: "Half Yearly", price: "51000" },
                 { period: "Yearly", price: "99999" },
             ],
           },
@@ -271,7 +271,7 @@ export default function App() {
                 { period: "Monthly", price: "15000" },
                 { period: "Quarterly", price: "42000" },
                 { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "1250000" },
+                { period: "Yearly", price: "125000" },
             ],
           },
           {
@@ -282,7 +282,7 @@ export default function App() {
                 { period: "Monthly", price: "15000" },
                 { period: "Quarterly", price: "42000" },
                 { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "1250000" },
+                { period: "Yearly", price: "125000" },
             ],
           },
           {
@@ -293,7 +293,7 @@ export default function App() {
                 { period: "Monthly", price: "15000" },
                 { period: "Quarterly", price: "42000" },
                 { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "1250000" },
+                { period: "Yearly", price: "125000" },
             ],
           },
         ],
@@ -335,19 +335,25 @@ export default function App() {
 
 
   const [selectedTab, setSelectedTab] = useState<string>("Equity");
+  const [selectedTier, setSelectedTier] = useState<string>("Basic"); // Track selected tier
 
   const tabItems: TabItem[] = [
     { id: "Equity", label: "Equity" },
     { id: "Commodity", label: "Commodity" },
   ];
-   
+
+  const tierItems: TabItem[] = [
+    { id: "Basic", label: "Basic" },
+    { id: "Premium", label: "Premium" },
+    { id: "HNI", label: "HNI" },
+  ];
 
   return (
     <div className="flex w-full flex-col bg-blue-50">
       <Tabs
         aria-label="Main Tabs"
         items={tabItems}
-        className="font-semibold md:text-3xl mt-8 max-w-[1240px] mx-auto"
+        className="font-semibold md:text-3xl mt-3 max-w-[1240px] mx-auto"
         selectedKey={selectedTab}
         onSelectionChange={(key) => setSelectedTab(key.toString())}
       >
@@ -357,7 +363,9 @@ export default function App() {
             title={
               <span
                 className={`${
-                  selectedTab === item.id ? "text-white font-bold border border-blue-600 p-2 rounded-xl bg-blue-400" : "text-black"
+                  selectedTab === item.id
+                    ? "text-white font-bold border border-blue-600 p-2 rounded-xl bg-blue-400"
+                    : "text-black"
                 }`}
               >
                 {item.label}
@@ -367,8 +375,62 @@ export default function App() {
           >
             <Card>
               <CardBody>
-                {item.id === "Equity" && <TierTabs items={equityTiers}  />}
-                {item.id === "Commodity" && <TierTabs items={commodityTiers} />}
+                {item.id === "Equity" && (
+                  <Tabs
+                    aria-label="Tier Tabs"
+                    selectedKey={selectedTier}
+                    onSelectionChange={(key) => setSelectedTier(key.toString())} 
+                  >
+                    {tierItems.map((tier) => (
+                      <Tab
+                        key={tier.id}
+                        title={
+                          <span
+                            className={`${
+                              selectedTier === tier.id
+                                ? "text-white font-bold border border-blue-600 p-2 rounded-xl bg-blue-500"
+                                : "text-black"
+                            }`}
+                          >
+                            {tier.label}
+                          </span>
+                        }
+                      >
+                        <TierTabs
+                          items={equityTiers.filter((tier) => tier.id === selectedTier)}
+                        />
+                      </Tab>
+                    ))}
+                  </Tabs>
+                )}
+                {item.id === "Commodity" && (
+                  <Tabs
+                    aria-label="Tier Tabs"
+                    selectedKey={selectedTier}
+                    onSelectionChange={(key) => setSelectedTier(key.toString())} 
+                  >
+                    {tierItems.map((tier) => (
+                      <Tab
+                        key={tier.id}
+                        title={
+                          <span
+                            className={`${
+                              selectedTier === tier.id
+                                ? "text-white font-bold border border-blue-600 p-2 rounded-xl bg-blue-500"
+                                : "text-black"
+                            }`}
+                          >
+                            {tier.label}
+                          </span>
+                        }
+                      >
+                        <TierTabs
+                          items={commodityTiers.filter((tier) => tier.id === selectedTier)}
+                        />
+                      </Tab>
+                    ))}
+                  </Tabs>
+                )}
               </CardBody>
             </Card>
           </Tab>

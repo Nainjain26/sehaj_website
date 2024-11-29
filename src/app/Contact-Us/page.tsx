@@ -7,7 +7,7 @@ import { FaFax } from "react-icons/fa";
 // import Spline from "@splinetool/react-spline";
 const page = () => {
   return (
-    <div className="bg-blue-50">
+    <div className="bg-blue-50 px-5">
       <div className=" py-6 flex flex-col justify-center">
         <h1 className=" text-2xl md:text-5xl font-semibold text-center text-blue-700">Contact us</h1>
         <p className="text-center max-w-[1240px] mx-auto mt-5  md:text-lg text-sm text-gray-800">Contact us for any questions, support, or feedback. Our team is dedicated to assisting you and addressing your needs promptly. We value your input and look forward to helping you with your inquiries.</p>
@@ -31,7 +31,7 @@ const page = () => {
               {<IoLocation />}
             </p>
             <h1 className=" text-gray-700">
-              <span className="text-black font-semibold  ">Address</span> - 6th
+              <span className="text-black font-semibold  ">Correspondence Address</span> - 6th
               Floor,Unit no. 611, Princess Business skypark, opposite Orbit
               Mall,A.B Road, Indore, Madhya Pradesh,452001
             </h1>
@@ -57,7 +57,7 @@ const page = () => {
             </p>
             <h1 className=" text-gray-700 ">
               <span className="text-black font-semibold ">
-                Correspondence Address
+                 Address
               </span>{" "}
               - Ratlam Road, Vyas Gali, Kushalgarh, Banswara, UDAIPUR,
               RAJASTHAN, 327801

@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 const Logo = () => {
   return (
-    <div className="my-20 ">
+    <div className="my-20 mx-5">
       <h1 className="max-w-7xl mx-auto text-center text-3xl md:text-4xl font-semibold underline md:pt-10 decoration-blue-500 decoration-4 underline-offset-6 leading-tight">
         Informative Stocks
       </h1>
