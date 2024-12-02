@@ -162,60 +162,60 @@ export default function App() {
             },
           ],
         },
-        {
-          id: "HNI",
-          label: "HNI",
-          content: [
-            {
-              id: "Stock Cash",
-              label: "Stock Cash",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
+        // {
+        //   id: "HNI",
+        //   label: "HNI",
+        //   content: [
+        //     {
+        //       id: "Stock Cash",
+        //       label: "Stock Cash",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
                 
-              ],
-            },
-            {
-              id: "Stock Future",
-              label: "Stock Future",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //     {
+        //       id: "Stock Future",
+        //       label: "Stock Future",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
                
-              ],
-            },
-            {
-              id: "Stock Option",
-              label: "Stock Option",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //     {
+        //       id: "Stock Option",
+        //       label: "Stock Option",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
                
-              ],
-            },
-            {
-              id: "Index Future",
-              label: "Index Future",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-              ],
-            },
-            {
-              id: "Index Option",
-              label: "Index Option",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-              ],
-            },
-          ],
-        },
+        //       ],
+        //     },
+        //     {
+        //       id: "Index Future",
+        //       label: "Index Future",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //     {
+        //       id: "Index Option",
+        //       label: "Index Option",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //   ],
+        // },
       ];
     
 
@@ -298,39 +298,39 @@ export default function App() {
           },
         ],
       },
-      {
-        id: "HNI",
-        label: "HNI",
-        content: [
-          {
-            id: "Base Matels",
-            label: "Base Matels",
-            type: "pricing",
-            options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-            ],
-          },
-          {
-            id: "Bullions",
-            label: "Bullions",
-            type: "pricing",
-            options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-            ],
-          },
-          {
-            id: "Energy",
-            label: "Energy",
-            type: "pricing",
-            options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-            ],
-          },
-        ],
-      },
+      // {
+      //   id: "HNI",
+      //   label: "HNI",
+      //   content: [
+      //     {
+      //       id: "Base Matels",
+      //       label: "Base Matels",
+      //       type: "pricing",
+      //       options: [
+      //           { period: "Monthly", price: "51000" },
+      //           { period: "Quarterly", price: "125000" },
+      //       ],
+      //     },
+      //     {
+      //       id: "Bullions",
+      //       label: "Bullions",
+      //       type: "pricing",
+      //       options: [
+      //           { period: "Monthly", price: "51000" },
+      //           { period: "Quarterly", price: "125000" },
+      //       ],
+      //     },
+      //     {
+      //       id: "Energy",
+      //       label: "Energy",
+      //       type: "pricing",
+      //       options: [
+      //           { period: "Monthly", price: "51000" },
+      //           { period: "Quarterly", price: "125000" },
+      //       ],
+      //     },
+      //   ],
+      // },
   ];
 
 
@@ -345,7 +345,7 @@ export default function App() {
   const tierItems: TabItem[] = [
     { id: "Basic", label: "Basic" },
     { id: "Premium", label: "Premium" },
-    { id: "HNI", label: "HNI" },
+    // { id: "HNI", label: "HNI" },
   ];
 
   return (
