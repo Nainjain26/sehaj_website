@@ -64,10 +64,10 @@ const page = () => {
             <span className="text-xl text-black md:text-2xl">Account Holder Name:</span> NA
           </h1>
           <h1 className="mt-5 text-xl text-gray-500 md:text-xl">
-            <span className="text-xl text-black md:text-2xl">Account Number:</span> NA
+            <span className="text-xl text-black md:text-2xl">Account Number:</span> 924020030441032
           </h1>
           <h1 className="mt-5 text-xl text-gray-500 md:text-xl">
-            <span className="text-xl text-black md:text-2xl">IFSC Code:</span> NA
+            <span className="text-xl text-black md:text-2xl">IFSC Code:</span> UTIB0004367
           </h1>
           <h1 className="mt-5 text-xl text-gray-500 md:text-xl">
             <span className="text-xl text-black md:text-2xl">UPI-ID:</span> NA

@@ -3,7 +3,8 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const WpButton = () => {
   return (
     <a
-      href="https://wa.me/+916269957381"
+      href="https://wa.me/+918839349383"
+     
       target="_blank"
       rel="noopener noreferrer"
     >
