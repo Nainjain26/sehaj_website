@@ -10,11 +10,14 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[url('/mac.png')] bg-cover bg-center opacity-25 z-[-1]"></div>
 
       {/* 3D Model for larger screens */}
-      <div className="md:h-[800px] animate_right max-md:hidden z-[-1000]">
+      {/* <div className="md:h-[800px] animate_right max-md:hidden z-[-1000]">
         <Spline
           scene="https://prod.spline.design/sHwURiWMH0BuNdal/scene.splinecode"
           className="absolute right-0"
         />
+      </div> */}
+       <div className="max-md:hidden">
+        <img src="/phone2.png" alt="Phone" className="object-cover w-full" />
       </div>
 
       {/* Image for smaller screens */}
