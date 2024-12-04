@@ -49,10 +49,10 @@ export default function App() {
               label: "Stock Cash",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "24999 +18%GST" },
+                { period: "Half Yearly", price: "44999 +18%GST" },
+                { period: "Yearly", price: "79999 +18%GST" },
               ],
             },
             {
@@ -60,10 +60,10 @@ export default function App() {
               label: "Stock Future",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "24999 +18%GST" },
+                { period: "Half Yearly", price: "44999 +18%GST" },
+                { period: "Yearly", price: "79999 +18%GST" },
               ],
             },
             {
@@ -71,10 +71,10 @@ export default function App() {
               label: "Stock Option",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "24999 +18%GST" },
+                { period: "Half Yearly", price: "44999 +18%GST" },
+                { period: "Yearly", price: "79999 +18%GST" },
               ],
             },
             {
@@ -82,10 +82,10 @@ export default function App() {
               label: "Index Future",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "24999 +18%GST" },
+                { period: "Half Yearly", price: "44999 +18%GST" },
+                { period: "Yearly", price: "79999 +18%GST" },
               ],
             },
             {
@@ -93,10 +93,32 @@ export default function App() {
               label: "Index Option",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "9999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "24999 +18%GST" },
+                { period: "Half Yearly", price: "44999 +18%GST" },
+                { period: "Yearly", price: "79999 +18%GST" },
+              ],
+            },
+            {
+              id: "Equity combo standard",
+              label: "Equity combo standard",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "35000 +18%GST" },
+                { period: "Quarterly", price: "89999 +18%GST" },
+                { period: "Half Yearly", price: "-" },
+                { period: "Yearly", price: "-" },
+              ],
+            },
+            {
+              id: "  Future STBT/BTST",
+              label: "Future STBT/BTST",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "21999 +18%GST" },
+                { period: "Quarterly", price: "59999 +18%GST" },
+                { period: "Half Yearly", price: "99999 +18%GST" },
+                { period: "Yearly", price: "-" },
               ],
             },
           ],
@@ -106,36 +128,36 @@ export default function App() {
           label: "Premium",
           content: [
             {
-              id: "Stock Cash",
-              label: "Stock Cash",
+              id: " Cash Premium",
+              label: "Cash Premium",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "15000" },
-                { period: "Quarterly", price: "42000" },
-                { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "125000" },
+                { period: "Monthly", price: "14999 +18%GST" },
+                { period: "Quarterly", price: "41999 +18%GST" },
+                { period: "Half Yearly", price: "74999 +18%GST" },
+                { period: "Yearly", price: "124999 +18%GST" },
               ],
             },
             {
-              id: "Stock Future",
+              id: " Future Premium ",
               label: "Stock Future",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "15000" },
-                { period: "Quarterly", price: "42000" },
-                { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "125000" },
+                { period: "Monthly", price: "14999 +18%GST" },
+                { period: "Quarterly", price: "41999 +18%GST" },
+                { period: "Half Yearly", price: "74999" },
+                { period: "Yearly", price: "124999 +18%GST" },
               ],
             },
             {
-              id: " Stock Option",
-              label: "Stock Option",
+              id: " Option Premium",
+              label: "Stock Premium",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "15000" },
-                { period: "Quarterly", price: "42000" },
-                { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "125000" },
+                { period: "Monthly", price: "14999 +18%GST" },
+                { period: "Quarterly", price: "41999 +18%GST" },
+                { period: "Half Yearly", price: "74999 +18%GST" },
+                { period: "Yearly", price: "124999 +18%GST" },
               ],
             },
             {
@@ -143,10 +165,10 @@ export default function App() {
               label: "Index Future",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "27000 +18%GST" },
+                { period: "Half Yearly", price: "51000 +18%GST" },
+                { period: "Yearly", price: "99999 +18%GST" },
               ],
             },
             {
@@ -154,68 +176,90 @@ export default function App() {
               label: "Index Option",
               type: "pricing",
               options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "27000 +18%GST" },
+                { period: "Half Yearly", price: "51000 +18%GST" },
+                { period: "Yearly", price: "99999 +18%GST" },
+              ],
+            },
+            {
+              id: "Equity combo prime",
+              label: "Equity combo prime",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "44999 +18%GST" },
+                { period: "Quarterly", price: "119999 +18%GST" },
+                { period: "Half Yearly", price: "-" },
+                { period: "Yearly", price: "-" },
+              ],
+            },
+            {
+              id: "Positional Combo",
+              label: "Positional Combo",
+              type: "pricing",
+              options: [
+                { period: "Monthly", price: "44999 +18%GST" },
+                { period: "Quarterly", price: "110000 +18%GST" },
+                { period: "Half Yearly", price: "-" },
+                { period: "Yearly", price: "-" },
               ],
             },
           ],
         },
-        {
-          id: "HNI",
-          label: "HNI",
-          content: [
-            {
-              id: "Stock Cash",
-              label: "Stock Cash",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
+        // {
+        //   id: "HNI",
+        //   label: "HNI",
+        //   content: [
+        //     {
+        //       id: "Stock Cash",
+        //       label: "Stock Cash",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
                 
-              ],
-            },
-            {
-              id: "Stock Future",
-              label: "Stock Future",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //     {
+        //       id: "Stock Future",
+        //       label: "Stock Future",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
                
-              ],
-            },
-            {
-              id: "Stock Option",
-              label: "Stock Option",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //     {
+        //       id: "Stock Option",
+        //       label: "Stock Option",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
                
-              ],
-            },
-            {
-              id: "Index Future",
-              label: "Index Future",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-              ],
-            },
-            {
-              id: "Index Option",
-              label: "Index Option",
-              type: "pricing",
-              options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-              ],
-            },
-          ],
-        },
+        //       ],
+        //     },
+        //     {
+        //       id: "Index Future",
+        //       label: "Index Future",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //     {
+        //       id: "Index Option",
+        //       label: "Index Option",
+        //       type: "pricing",
+        //       options: [
+        //         { period: "Monthly", price: "51000" },
+        //         { period: "Quarterly", price: "125000" },
+        //       ],
+        //     },
+        //   ],
+        // },
       ];
     
 
@@ -229,10 +273,10 @@ export default function App() {
             label: "Base Matels",
             type: "pricing",
             options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "14999 +18%GST" },
+                { period: "Quarterly", price: "41999 +18%GST" },
+                { period: "Half Yearly", price: "74999 +18%GST" },
+                { period: "Yearly", price: "124999 +18%GST" },
             ],
           },
           {
@@ -240,10 +284,10 @@ export default function App() {
             label: "Bullions",
             type: "pricing",
             options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "14999 +18%GST" },
+                { period: "Quarterly", price: "41999 +18%GST" },
+                { period: "Half Yearly", price: "74999 +18%GST" },
+                { period: "Yearly", price: "124999 +18%GST" },
             ],
           },
           {
@@ -251,10 +295,10 @@ export default function App() {
             label: "Energy",
             type: "pricing",
             options: [
-                { period: "Monthly", price: "9999" },
-                { period: "Quarterly", price: "27000" },
-                { period: "Half Yearly", price: "51000" },
-                { period: "Yearly", price: "99999" },
+                { period: "Monthly", price: "9999 +18%GST" },
+                { period: "Quarterly", price: "24999 +18%GST" },
+                { period: "Half Yearly", price: "44999 +18%GST" },
+                { period: "Yearly", price: "79999 +18%GST" },
             ],
           },
         ],
@@ -268,10 +312,10 @@ export default function App() {
             label: "Base Matels",
             type: "pricing",
             options: [
-                { period: "Monthly", price: "15000" },
-                { period: "Quarterly", price: "42000" },
-                { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "125000" },
+              { period: "Monthly", price: "14999 +18%GST" },
+              { period: "Quarterly", price: "41999 +18%GST" },
+              { period: "Half Yearly", price: "74999 +18%GST" },
+              { period: "Yearly", price: "124999 +18%GST" },
             ],
           },
           {
@@ -279,10 +323,10 @@ export default function App() {
             label: "Bullions",
             type: "pricing",
             options: [
-                { period: "Monthly", price: "15000" },
-                { period: "Quarterly", price: "42000" },
-                { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "125000" },
+              { period: "Monthly", price: "14999 +18%GST" },
+              { period: "Quarterly", price: "41999 +18%GST" },
+              { period: "Half Yearly", price: "74999 +18%GST" },
+              { period: "Yearly", price: "124999 +18%GST" },
             ],
           },
           {
@@ -290,47 +334,47 @@ export default function App() {
             label: "Energy",
             type: "pricing",
             options: [
-                { period: "Monthly", price: "15000" },
-                { period: "Quarterly", price: "42000" },
-                { period: "Half Yearly", price: "75000" },
-                { period: "Yearly", price: "125000" },
+              { period: "Monthly", price: "9999 +18%GST" },
+              { period: "Quarterly", price: "24999 +18%GST" },
+              { period: "Half Yearly", price: "44999 +18%GST" },
+              { period: "Yearly", price: "79999 +18%GST" },
             ],
           },
         ],
       },
-      {
-        id: "HNI",
-        label: "HNI",
-        content: [
-          {
-            id: "Base Matels",
-            label: "Base Matels",
-            type: "pricing",
-            options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-            ],
-          },
-          {
-            id: "Bullions",
-            label: "Bullions",
-            type: "pricing",
-            options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-            ],
-          },
-          {
-            id: "Energy",
-            label: "Energy",
-            type: "pricing",
-            options: [
-                { period: "Monthly", price: "51000" },
-                { period: "Quarterly", price: "125000" },
-            ],
-          },
-        ],
-      },
+      // {
+      //   id: "HNI",
+      //   label: "HNI",
+      //   content: [
+      //     {
+      //       id: "Base Matels",
+      //       label: "Base Matels",
+      //       type: "pricing",
+      //       options: [
+      //           { period: "Monthly", price: "51000" },
+      //           { period: "Quarterly", price: "125000" },
+      //       ],
+      //     },
+      //     {
+      //       id: "Bullions",
+      //       label: "Bullions",
+      //       type: "pricing",
+      //       options: [
+      //           { period: "Monthly", price: "51000" },
+      //           { period: "Quarterly", price: "125000" },
+      //       ],
+      //     },
+      //     {
+      //       id: "Energy",
+      //       label: "Energy",
+      //       type: "pricing",
+      //       options: [
+      //           { period: "Monthly", price: "51000" },
+      //           { period: "Quarterly", price: "125000" },
+      //       ],
+      //     },
+      //   ],
+      // },
   ];
 
 
@@ -345,7 +389,7 @@ export default function App() {
   const tierItems: TabItem[] = [
     { id: "Basic", label: "Basic" },
     { id: "Premium", label: "Premium" },
-    { id: "HNI", label: "HNI" },
+    // { id: "HNI", label: "HNI" },
   ];
 
   return (
@@ -364,7 +408,7 @@ export default function App() {
               <span
                 className={`${
                   selectedTab === item.id
-                    ? "text-white font-bold border border-blue-600 p-2 rounded-xl bg-blue-400"
+                    ? "text-white font-bold border border-blue-600 p-2 md:px-20 rounded-xl bg-blue-400"
                     : "text-black"
                 }`}
               >
@@ -388,7 +432,7 @@ export default function App() {
                           <span
                             className={`${
                               selectedTier === tier.id
-                                ? "text-white font-bold border border-blue-600 p-2 rounded-xl bg-blue-500"
+                                ? "text-white font-bold border border-blue-600 p-2  rounded-xl bg-blue-500"
                                 : "text-black"
                             }`}
                           >

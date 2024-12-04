@@ -4,7 +4,6 @@ const WpButton = () => {
   return (
     <a
       href="https://wa.me/+916269957381"
-     
       target="_blank"
       rel="noopener noreferrer"
     >
