@@ -29,12 +29,20 @@ export default function Navbar() {
   const closeSideMenu = () => setSideMenue(false);
 
   return (
-    <div className="flex justify-between items-center px-10 py-5 text-sm z-[2000]">
+    <div className="flex justify-evenly items-center px-10 py-5 text-sm z-[2000]">
+      
       {/* Left side with logo */}
+       
       <section ref={animationParent} className="flex items-center">
         <Link href={"/"}>
-          <Image src="/Frame 2.svg" alt="logo" height={150} width={150} />
+          <Image src="/logo1.png" alt="logo" height={150} width={150} />
         </Link>
+      </section>
+      <section className="">
+        <h1 className="text-xl font-semibold">Himanshu vyas</h1>
+        <p className="text-sm">SEBI no. - INH000014854</p>
+        <p className="text-sm">GST no.- 23AHJPV6186G1ZW </p>
+        
       </section>
 
       {/* Desktop Navigation */}

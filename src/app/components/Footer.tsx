@@ -14,15 +14,17 @@ const Footer = () => {
         <div className="sm:ml-10 md:ml-20">
           <div className="flex justify-center items-center mb-4">
             <img
-              src="/Frame 2.svg"
+              src="/logo1.png"
               alt="Logo"
-              className="h-8 w-8 sm:h-12 sm:w-12 md:h-[110px] md:w-[70px] mr-2"
+              className="h-8 w-8 sm:h-12 sm:w-12 md:h-[80px] md:w-[120px] mr-2 object-cover"
             />
-            <h1 className="text-lg sm:text-xl font-semibold pt-4">Sahaj Research Services</h1>
+            <h1 className="text-lg sm:text-lg font-semibold pt-4">Sahaj Research Services</h1>
           </div>
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
             Sahaj Research delivers real-time data, analytics, and strategies to help investors make informed decisions and unlock opportunities in the ever-evolving stock market.
           </p>
+          <p className="pt-3">SEBI no. - INH000014854</p>
+        <p>GST no.- 23AHJPV6186G1ZW </p>
         </div>
 
         {/* Quick Links */}
@@ -62,6 +64,10 @@ const Footer = () => {
             </p>
             <p className="hover:text-blue-400 pt-2">
               <Link href={"/Grievance-Redressal-Process"}>Grievance Redressal</Link>
+            </p>
+            <p className="hover:text-blue-400 pt-2">
+              <Link href={"/Escalation"}>Escalation Matrix/Grievance Redressal
+              </Link>
             </p>
           </div>
         </div>
