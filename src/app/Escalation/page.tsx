@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
+    <div className="px-3">
       <h1 className="text-blue-500 text-center text-3xl md:text-4xl my-4 font-semibold underline ">
         Grievance Redressal / Escalation Matrix
       </h1>
@@ -84,7 +84,7 @@ const page = () => {
         the concerned RA before filing complaint to SEBI.For more details go to:
         -
       </p>
-      <p className="text-xl max-w-7xl mx-auto">
+      {/* <p className="text-xl ">
         <a
           href="https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20241209-41
 "
@@ -94,7 +94,7 @@ const page = () => {
         >
           https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20241209-41
         </a>
-      </p>
+      </p> */}
 
       <p className="text-xl max-w-7xl mx-auto py-5  ">
         We aim to resolve all grievances within 21 working days from the date of
