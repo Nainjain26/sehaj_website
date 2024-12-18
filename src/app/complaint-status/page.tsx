@@ -7,7 +7,7 @@ const page = () => {
         Compaint-data
       </h1>
       <p className="pt-10 font-semibold text-lg md:text-3xl  max-w-7xl mx-auto pl-5">
-      ⦁ Data for the month ending – August 2024
+      ⦁ Data for the month ending – November 2024
       </p>
       <div className="overflow-x-auto">
       <table className="table-auto text-center  mt-10 max-w-7xl mx-auto  md:text-2xl bg-blue-50">
