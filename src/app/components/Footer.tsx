@@ -23,8 +23,8 @@ const Footer = () => {
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
             Sahaj Research delivers real-time data, analytics, and strategies to help investors make informed decisions and unlock opportunities in the ever-evolving stock market.
           </p>
-          <p className="pt-3">SEBI no. - INH000014854</p>
-        <p>GST no.- 23AHJPV6186G1ZW </p>
+          <p className="pt-3">SEBI No. - INH000014854</p>
+        <p>GST No.- 23AHJPV6186G1ZW </p>
         </div>
 
         {/* Quick Links */}
@@ -40,6 +40,18 @@ const Footer = () => {
             <p className="hover:text-blue-400 pt-3">
               <Link href={"/Index-Future"}>Index-Future</Link>
             </p>
+            <p className="hover:text-blue-400 pt-3">
+              <Link href={"/pricing"}>Pricing</Link>
+            </p>
+           
+            <p className="hover:text-blue-400 pt-3">
+              <Link href={"/Servicee"}>Service</Link>
+            </p>
+            
+            <p className="hover:text-blue-400 pt-3">
+              <Link href={"/login"}>login</Link>
+            </p>
+           
           </div>
         </div>
 

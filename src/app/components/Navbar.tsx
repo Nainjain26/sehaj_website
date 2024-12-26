@@ -40,8 +40,8 @@ export default function Navbar() {
       </section>
       <section className="">
         <h1 className="text-xl font-semibold">Himanshu vyas</h1>
-        <p className="text-sm">SEBI no. - INH000014854</p>
-        <p className="text-sm">GST no.- 23AHJPV6186G1ZW </p>
+        <p className="text-sm">SEBI No. - INH000014854</p>
+        <p className="text-sm">GST No.- 23AHJPV6186G1ZW </p>
         
       </section>
 
