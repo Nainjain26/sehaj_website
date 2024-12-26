@@ -37,9 +37,9 @@ const Footer = () => {
             <p className="hover:text-blue-400 pt-3">
               <Link href={"/Contact-Us"}>Contact Us</Link>
             </p>
-            <p className="hover:text-blue-400 pt-3">
+            {/* <p className="hover:text-blue-400 pt-3">
               <Link href={"/Index-Future"}>Index-Future</Link>
-            </p>
+            </p> */}
             <p className="hover:text-blue-400 pt-3">
               <Link href={"/pricing"}>Pricing</Link>
             </p>
