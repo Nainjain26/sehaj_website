@@ -18,18 +18,24 @@ const Footer = () => {
               alt="Logo"
               className="h-8 w-8 sm:h-12 sm:w-12 md:h-[80px] md:w-[120px] mr-2 object-cover"
             />
-            <h1 className="text-lg sm:text-lg font-semibold pt-4">Sahaj Research Services</h1>
+            <h1 className="text-lg sm:text-lg font-semibold pt-4">
+              Sahaj Research Services
+            </h1>
           </div>
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
-            Sahaj Research delivers real-time data, analytics, and strategies to help investors make informed decisions and unlock opportunities in the ever-evolving stock market.
+            Sahaj Research delivers real-time data, analytics, and strategies to
+            help investors make informed decisions and unlock opportunities in
+            the ever-evolving stock market.
           </p>
           <p className="pt-3">SEBI No. - INH000014854</p>
-        <p>GST No.- 23AHJPV6186G1ZW </p>
+          <p>GST No.- 23AHJPV6186G1ZW </p>
         </div>
 
         {/* Quick Links */}
         <div className="text-center">
-          <h1 className="text-lg sm:text-xl font-semibold  pt-8">Quick Links</h1>
+          <h1 className="text-lg sm:text-xl font-semibold  pt-8">
+            Quick Links
+          </h1>
           <div className="py-3 text-gray-700">
             <p className="hover:text-blue-400 pt-4">
               <Link href={"/"}>Home</Link>
@@ -43,21 +49,22 @@ const Footer = () => {
             <p className="hover:text-blue-400 pt-3">
               <Link href={"/pricing"}>Pricing</Link>
             </p>
-           
+
             <p className="hover:text-blue-400 pt-3">
               <Link href={"/Servicee"}>Service</Link>
             </p>
-            
+
             <p className="hover:text-blue-400 pt-3">
-              <Link href={"/login"}>login</Link>
+              {/* <Link href={"/login"}>login</Link> */}
             </p>
-           
           </div>
         </div>
 
         {/* Explore More */}
         <div className="text-center">
-          <h1 className="text-lg sm:text-xl font-semibold pt-8">Explore More</h1>
+          <h1 className="text-lg sm:text-xl font-semibold pt-8">
+            Explore More
+          </h1>
           <div className="py-3 text-gray-700">
             <p className="hover:text-blue-400 pt-4">
               <Link href={"/Disclosure"}>Disclosure</Link>
@@ -75,10 +82,13 @@ const Footer = () => {
               <Link href={"/Invester-charter"}>Investor Charter</Link>
             </p>
             <p className="hover:text-blue-400 pt-2">
-              <Link href={"/Grievance-Redressal-Process"}>Grievance Redressal</Link>
+              <Link href={"/Grievance-Redressal-Process"}>
+                Grievance Redressal
+              </Link>
             </p>
             <p className="hover:text-blue-400 pt-2">
-              <Link href={"/Escalation"}>Escalation Matrix/Grievance Redressal
+              <Link href={"/Escalation"}>
+                Escalation Matrix/Grievance Redressal
               </Link>
             </p>
           </div>
@@ -86,12 +96,16 @@ const Footer = () => {
 
         {/* Get In Touch */}
         <div>
-          <h1 className="py-6 font-semibold text-lg sm:text-xl text-center">Get In Touch</h1>
+          <h1 className="py-6 font-semibold text-lg sm:text-xl text-center">
+            Get In Touch
+          </h1>
           <div className="flex justify-center items-center mb-3">
             <p className="mr-2 text-xl sm:text-2xl text-blue-600">
               <IoCall />
             </p>
-            <h1 className="text-sm sm:text-base text-gray-600">+91-9993-985722, +91-8839-349383</h1>
+            <h1 className="text-sm sm:text-base text-gray-600">
+              +91-9993-985722, +91-8839-349383
+            </h1>
           </div>
           <div className="flex justify-center items-center">
             <p className="mr-2 text-xl sm:text-2xl text-blue-600">
@@ -137,7 +151,9 @@ const Footer = () => {
           </h1>
           <h1 className="bg-white w-max p-3 rounded-full shadow-xl">
             <Link
-              href={"https://x.com/i/flow/login?redirect_after_login=%2Fsahajresearch"}
+              href={
+                "https://x.com/i/flow/login?redirect_after_login=%2Fsahajresearch"
+              }
               className="text-black text-2xl sm:text-3xl hover:text-blue-800"
             >
               <FaXTwitter />
