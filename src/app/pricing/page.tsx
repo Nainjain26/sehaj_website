@@ -448,7 +448,7 @@ export default function App() {
             {item.id === "Commodity" && (
               <Tabs
                 aria-label="Tier Tabs"
-                className=" mx-auto w-fit flex "
+                className=" mx-auto w-fit flex"
                 selectedKey={selectedTier}
                 onSelectionChange={(key) => setSelectedTier(key.toString())}
               >
