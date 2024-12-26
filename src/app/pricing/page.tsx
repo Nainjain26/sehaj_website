@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Tabs, Tab, CardBody, Card } from "@nextui-org/react";
+import { Tabs, Tab } from "@nextui-org/react";
 import TierTabs from "../tierTabs";
 
 type PricingOption = {
