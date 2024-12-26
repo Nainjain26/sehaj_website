@@ -386,7 +386,7 @@ const page = () => {
           </h3>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto text-center bg-red-600 p-3 rounded-xl text-white">
+      <div className="max-w-7xl mx-auto text-center bg-blue-600 p-3 rounded-xl text-white">
         <h1>
           {" "}
           <span className="text-xl font-semibold "> ⦁ NOTE :-</span> Kindly book

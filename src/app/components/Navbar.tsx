@@ -16,6 +16,7 @@ type NavItem = {
 const navItems: NavItem[] = [
   { label: "Home", link: "/" },
   { label: "Complaint-status", link: "/complaint-status" },
+  { label: "Services", link: "/Servicee" },
   { label: "Pricing", link: "/pricing" },
   { label: "Bank-details", link: "/Bank-details" },
   { label: "Contact-Us", link: "/Contact-Us" },
@@ -49,7 +50,7 @@ export default function Navbar() {
       <section className="hidden md:flex items-center gap-4 transition-all">
         {navItems.map((d, i) => (
           <Link key={i} href={d.link ?? "/"} className="relative group px-2 py-3 transition-all">
-            <p className="flex cursor-pointer items-center text-xl pt-5 font-semibold gap-2 text-black hover:text-blue-500">
+            <p className="flex cursor-pointer items-center text-lg pt-5 font-semibold gap-2 text-black hover:text-blue-500">
               <span>{d.label}</span>
               {d.children && <IoIosArrowDown className="rotate-180 transition-all group-hover:rotate-0" />}
             </p>

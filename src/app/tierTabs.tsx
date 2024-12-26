@@ -47,16 +47,16 @@ const TierTabs: React.FC<TierTabsProps> = ({ items }) => {
           <Tab
             key={tier.id}
             title={tier.label}
-            className="md:text-3xl text-xl font-semibold max-w-[1240px] mx-auto"
+            className="md:text-3xl text-xl  font-semibold max-w-[1240px] mx-auto"
           >
-            <div className="mt-4">
+            <div className="mt-4 ">
               {tier.content.map((contentItem) => (
-                <div key={contentItem.id} className="mt-4">
+                <div key={contentItem.id} className="mt-4 ">
                   {contentItem.type === "pricing" ? (
                     <Card className="mb-4">
                       <CardBody>
                         {/* Heading */}
-                        <h3 className="md:text-4xl font-semibold text-blue-700">
+                        <h3 className="md:text-4xl  font-semibold text-blue-700">
                           {contentItem.label}
                         </h3>
 
