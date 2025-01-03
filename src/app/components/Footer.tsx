@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ">
         {/* Logo and Description */}
         <div className="sm:ml-10 md:ml-20">
-          <div className="flex justify-center items-center mb-4">
+          <div className="flex  items-center mb-4">
             <img
               src="/logo1.png"
               alt="Logo"
@@ -32,8 +32,8 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div className="text-center">
-          <h1 className="text-lg sm:text-xl font-semibold  pt-8">
+        <div className=" md:text-center text-start">
+          <h1 className="text-sm sm:text-xl font-semibold  pt-8">
             Quick Links
           </h1>
           <div className="py-3 text-gray-700">
@@ -61,8 +61,8 @@ const Footer = () => {
         </div>
 
         {/* Explore More */}
-        <div className="text-center">
-          <h1 className="text-lg sm:text-xl font-semibold pt-8">
+        <div className="md:text-center text-start">
+          <h1 className="text-sm sm:text-xl font-semibold pt-8">
             Explore More
           </h1>
           <div className="py-3 text-gray-700">
@@ -96,10 +96,10 @@ const Footer = () => {
 
         {/* Get In Touch */}
         <div>
-          <h1 className="py-6 font-semibold text-lg sm:text-xl text-center">
+          <h1 className="py-6 font-semibold text-sm sm:text-xl md:text-center text-start">
             Get In Touch
           </h1>
-          <div className="flex justify-center items-center mb-3">
+          <div className="flex  md:text-center text-start mb-3">
             <p className="mr-2 text-xl sm:text-2xl text-blue-600">
               <IoCall />
             </p>
@@ -107,7 +107,7 @@ const Footer = () => {
               +91-9993-985722, +91-8839-349383
             </h1>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex  md:text-center text-start">
             <p className="mr-2 text-xl sm:text-2xl text-blue-600">
               <IoMdMailUnread />
             </p>
@@ -129,7 +129,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="flex flex-col sm:flex-row justify-between items-center text-gray-500 text-sm">
-        <div className="text-center sm:text-left mb-4 sm:mb-0">
+        <div className="md:text-center text-start sm:text-left mb-4 sm:mb-0">
           Copyright &copy; 2024 SahajResearchServices | All Rights Reserved
         </div>
         <div className="flex justify-center mt-4 sm:mt-0">
@@ -166,3 +166,4 @@ const Footer = () => {
 };
 
 export default Footer;
+ 
