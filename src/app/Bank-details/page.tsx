@@ -191,7 +191,7 @@ const page = () => {
             <img src="/AXIS.svg" alt="" className="w-10 h-10 object-contain" />
           </div>
           <img
-            src="/hdfc2.jpg"
+            src="/qr1.jpg"
             alt="QR Code"
             className="w-60 md:w-60 md:h-60"
           />
