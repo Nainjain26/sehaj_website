@@ -69,7 +69,7 @@ const TierTabs: React.FC<TierTabsProps> = ({ items }) => {
                                   Duration
                                 </th>
                                 <th className="border border-gray-300 px-4 py-2 text-sm md:text-base">
-                                  Price 
+                                  Price- ₹(INR )
                                 </th>
                                 <th className="border border-gray-300 px-4 py-2 text-sm md:text-base">
                                   Buy Now
