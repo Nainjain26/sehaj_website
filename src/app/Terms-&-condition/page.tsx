@@ -7,7 +7,7 @@ const page = () => {
         Terms and Conditions
       </h1>
       <p className="text-xl max-w-7xl mx-auto py-10 text-gray-600 ">
-        This section contains terms and conditions of Use of this website. By
+        This section contains terms and conditions of Use of this (Himanshu vyas research analyst) website. By
         accessing this website or any of its pages, you are agreeing to this
         terms and conditions
       </p>

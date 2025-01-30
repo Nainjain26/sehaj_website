@@ -78,7 +78,7 @@ const Footer = () => {
             <p className="hover:text-blue-400 pt-2">
               <Link href={"/Terms-&-condition"}>Terms & Conditions</Link>
             </p>
-            <p className="hover:text-blue-400 pt-2">
+            {/* <p className="hover:text-blue-400 pt-2">
               <Link href={"/Invester-charter"}>Investor Charter</Link>
             </p>
             <p className="hover:text-blue-400 pt-2">
@@ -90,7 +90,7 @@ const Footer = () => {
               <Link href={"/Escalation"}>
                 Escalation Matrix/Grievance Redressal
               </Link>
-            </p>
+            </p> */}
           </div>
         </div>
 
